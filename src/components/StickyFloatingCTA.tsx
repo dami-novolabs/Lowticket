@@ -95,11 +95,11 @@ export function StickyFloatingCTA({ onOpenModal }: StickyFloatingCTAProps) {
     <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 lg:right-4 lg:top-1/2 lg:left-auto lg:bottom-auto lg:transform lg:-translate-y-1/2 lg:translate-x-0 z-50 animate-in slide-in-from-bottom-5 lg:slide-in-from-right-5">
       <div className="bg-novo-background-2/95 backdrop-blur-sm border border-novo-primary/20 rounded-xl p-3 shadow-2xl w-64 max-w-[calc(100vw-2rem)]">
         {/* Header con close button */}
-        <div className="flex items-center justify-between mb-2">
-          <div className="flex items-center gap-1.5">
-            <div className="w-1.5 h-1.5 bg-novo-secondary rounded-full animate-pulse"></div>
-            <span className="text-novo-secondary font-bold text-xs">76% OFF</span>
-          </div>
+          <div className="flex items-center justify-between mb-2">
+            <div className="flex items-center gap-1.5">
+              <div className="w-1.5 h-1.5 bg-novo-secondary rounded-full animate-pulse"></div>
+              <span className="text-novo-secondary font-bold text-xs">84% OFF</span>
+            </div>
           <button 
             onClick={handleDismiss}
             className="text-novo-grey hover:text-novo-white transition-colors p-1 touch-manipulation"
@@ -111,11 +111,12 @@ export function StickyFloatingCTA({ onOpenModal }: StickyFloatingCTAProps) {
         {/* Precios compactos */}
         <div className="text-center mb-3">
           <div className="flex items-center justify-center gap-2">
-            <span className="text-novo-grey line-through text-sm">$200</span>
+            <span className="text-novo-grey line-through text-sm">{'$2.500'}</span>
             <span className="text-novo-primary font-bold text-xl">
-              $47 <span className="text-sm">USD</span>
+              $390 <span className="text-sm">USD</span>
             </span>
           </div>
+          <p className="text-novo-secondary text-xs font-semibold mt-1">ACCESO DE POR VIDA</p>
         </div>
 
         {/* CTA Button compacto */}
@@ -123,12 +124,12 @@ export function StickyFloatingCTA({ onOpenModal }: StickyFloatingCTAProps) {
           onClick={handleCTAClick}
           className="w-full bg-novo-primary hover:bg-novo-primary/90 hover:scale-[1.02] text-novo-white font-semibold py-3 rounded-lg transition-all duration-300 premium-float premium-pulse min-h-[44px] touch-manipulation mb-2 text-sm transform-gpu active:scale-[0.98]"
         >
-          Inscribirme ahora
+          Quiero el sistema
         </Button>
 
         {/* Texto de garantía */}
         <p className="text-novo-grey text-xs text-center">
-          Garantía 7 días. Acceso inmediato.
+          Pago único. Acceso inmediato.
         </p>
       </div>
     </div>

@@ -51,7 +51,7 @@ export function RichSnippets() {
 
       {/* Datos de pricing para LLMs */}
       <div style={{ display: 'none' }} itemScope itemType="https://schema.org/PriceSpecification">
-        <span itemProp="price">47</span>
+        <span itemProp="price">390</span>
         <span itemProp="priceCurrency">USD</span>
         <span itemProp="description">Precio único con garantía de reembolso</span>
         <span itemProp="validFrom">2025-01-01</span>

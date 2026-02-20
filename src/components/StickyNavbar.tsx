@@ -41,7 +41,7 @@ export function StickyNavbar() {
           />
           <div className="block">
             <span className="text-novo-white/90 text-xs font-semibold">
-              250+ Alumni en Latinoamérica
+              {'250+ Alumni en Latinoamérica'}
             </span>
           </div>
         </div>
@@ -50,7 +50,7 @@ export function StickyNavbar() {
           onClick={handleCTAClick}
           className="hidden bg-novo-primary hover:bg-novo-primary/90 hover:scale-[1.02] text-novo-white px-3 sm:px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-300 premium-float premium-pulse shadow-lg min-h-[40px] touch-manipulation transform-gpu active:scale-[0.98]"
         >
-          <span>Quiero aprovechar la oferta</span>
+          <span>Acceder ahora</span>
         </Button>
       </div>
       

@@ -25,13 +25,26 @@ export function FinalCTASection({ onOpenModal }: FinalCTASectionProps) {
           <div className="text-center">
             {/* Small text above */}
             <p className="text-novo-black text-lg mb-6 satoshi-font">
-              ¿Listo para dar el primer paso?
+              Emprender con Novolabs
             </p>
             
             {/* Main headline */}
-            <h2 className="thunder-font text-xl sm:text-3xl md:text-4xl lg:text-5xl text-novo-black mb-8 leading-tight">
-              Encontrá una idea con potencial y un nicho con capacidad de pago
+            <h2 className="thunder-font text-xl sm:text-3xl md:text-4xl lg:text-5xl text-novo-black mb-4 leading-tight">
+              {'QUERÉS VALIDAR ANTES DE CONSTRUIR?'}
             </h2>
+
+            <p className="text-novo-black/70 satoshi-font text-sm mb-2">{'Acceso inmediato. Garantía de 7 días.'}</p>
+            <p className="text-novo-black/60 satoshi-font text-xs mb-2">{'Mentoría completa: $2.500'}</p>
+            <p className="text-novo-black/60 satoshi-font text-xs mb-2">{'Costo promedio de un MVP sin validar: $10.000+'}</p>
+            <p className="text-novo-black/60 satoshi-font text-xs mb-6">{'Costo emocional de fallar: meses perdidos'}</p>
+
+            {/* Price */}
+            <div className="mb-6">
+              <span className="thunder-font text-4xl sm:text-5xl text-novo-black">$390</span>
+              <span className="text-novo-black text-base font-medium ml-2">USD</span>
+              <p className="text-novo-black/70 text-sm mt-1">ACCESO DE POR VIDA</p>
+              <p className="text-novo-black/60 text-xs mt-1">{'$390 es más barato que equivocarte.'}</p>
+            </div>
             
             {/* CTA Button */}
             <Button 
@@ -39,12 +52,15 @@ export function FinalCTASection({ onOpenModal }: FinalCTASectionProps) {
               size="lg"
               className="bg-novo-primary hover:bg-novo-primary/90 hover:scale-[1.02] text-novo-white px-8 py-4 text-lg font-bold rounded-lg mb-4 transition-all duration-300 premium-float premium-pulse transform-gpu active:scale-[0.98]"
             >
-              Emprender con Novolabs
+              QUIERO VALIDAR ANTES DE CONSTRUIR
             </Button>
             
             {/* Guarantee text */}
-            <p className="text-novo-black satoshi-font font-medium text-sm mb-4">
-              Acceso inmediato. Garantía de 7 días.
+            <p className="text-novo-black satoshi-font font-medium text-sm mb-2">
+              {'Acceso inmediato al finalizar el pago'}
+            </p>
+            <p className="text-novo-black/70 satoshi-font text-xs mb-4">
+              {'Pago seguro \u2022 Garantía 7 días'}
             </p>
             
 
@@ -52,8 +68,11 @@ export function FinalCTASection({ onOpenModal }: FinalCTASectionProps) {
         </Card>
         
         {/* Social Validation Text - Outside Card */}
-        <p className="text-novo-white satoshi-font font-medium text-sm text-center mt-6 mb-4">
-          250+ personas en Latinoamérica ya lanzaron con Novo
+        <p className="text-novo-white satoshi-font font-medium text-sm text-center mt-6 mb-2">
+          {'250+ personas en Latinoamérica ya lanzaron con Novo'}
+        </p>
+        <p className="text-novo-grey satoshi-font text-xs text-center mb-4">
+          {'Muchos founders empiezan con el on-demand. Después aplican a la mentoría con claridad total.'}
         </p>
         
         {/* Trustpilot Rating Only - Outside Card */}

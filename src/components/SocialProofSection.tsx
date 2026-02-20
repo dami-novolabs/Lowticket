@@ -132,8 +132,9 @@ export function SocialProofSection() {
         {/* Main Metric */}
         <div className="text-center mb-16">
           <h2 className="thunder-font text-3xl md:text-4xl text-novo-white text-[32px]">
-            <span className="text-novo-secondary">250+ Emprendedores</span> en <span className="text-novo-primary">18 países</span> lanzaron con Novo
+            <span className="text-novo-secondary">250+ Alumni</span> en <span className="text-novo-primary">Latinoam&eacute;rica</span>
           </h2>
+          <p className="text-novo-grey text-lg mt-2">+250 founders en 16 pa&iacute;ses ya validaron con este sistema</p>
         </div>
 
         {/* Trustpilot Reviews Carousel */}
@@ -237,7 +238,7 @@ export function SocialProofSection() {
           {/* Historical credibility message - After carousel */}
           {loadingComplete && validReviews.length > 0 && (
             <div className="text-center mt-8">
-              <p className="text-novo-grey text-sm">Desde el 2019 ayudando a emprendedores.</p>
+              <p className="text-novo-grey text-sm">Desde el 2019 ayudando a emprendedores. Menciones en prensa:</p>
             </div>
           )}
         </div>

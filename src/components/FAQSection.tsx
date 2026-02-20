@@ -9,45 +9,48 @@ import {
 export function FAQSection() {
   const faqs = [
     {
-      question: "¿El curso es en vivo?",
-      answer: "No, este curso no es en vivo. Todo el contenido está pregrabado y disponible 24/7 para que puedas avanzar a tu ritmo y en tus propios horarios. Además, tienes acceso de por vida al contenido, lo que significa que puedes repetir el curso las veces que quieras con cualquier nueva idea de negocio que se te ocurra en el futuro."
+      question: "¿Cuánto tiempo necesito dedicarle por día?",
+      answer: "El curso no tiene una cantidad de horas definida como tal. Está diseñado para personas ocupadas. La idea es que puedas hacerlo en los días que puedas destinar 90 minutos de foco continuo."
     },
     {
-      question: "¿Cuánto tiempo necesito dedicarle por día?",
-      answer: "El curso no tiene una cantidad de horas definida como tal. Esta diseñado para personas ocupadas. La idea es que puedas hacerlo en los días que puedas destinar 90 minutos de foco continuo."
+      question: "¿El curso es en vivo?",
+      answer: "No, este curso no es en vivo. Todo el contenido está pregrabado y disponible 24/7 para que puedas avanzar a tu ritmo y en tus propios horarios. Además, tenés acceso de por vida al contenido."
     },
-
     {
       question: "¿Funciona para cualquier tipo de negocio?",
       answer: "Sí, el método funciona para productos digitales, servicios, e-commerce, SaaS, consultoría, etc. Los principios de validación son universales."
     },
     {
       question: "¿Puedo pagar desde LATAM?",
-      answer: "Si, aceptamos pagos en dólares desde toda Latinoamérica. Nuestro proveedor de pagos es Stripe, empresa líder en infraestructura de pagos para comercio internacional."
+      answer: "Sí, aceptamos pagos en dólares desde toda Latinoamérica. Nuestro proveedor de pagos es Stripe, empresa líder en infraestructura de pagos para comercio internacional."
     },
     {
-      question: "¿Cuál es la diferencia con el programa de 4 meses?",
-      answer: "Este curso es para quienes no están seguros del potencial de su idea de negocio. El Programa 'Lanzar' de 4 meses es para personas que están listas para ejecutar y construir su negocio. Este curso es el primer paso."
+      question: "¿Por qué cuesta $390 y no $2.500 como la mentoría?",
+      answer: "Porque el curso on-demand no incluye el acompañamiento personalizado, las sesiones en vivo, ni el acceso a la comunidad extendida. Incluye el sistema completo de validación para que puedas ejecutar por tu cuenta."
+    },
+    {
+      question: "¿Qué incluye exactamente la mentoría de $2.500 que esto no tiene?",
+      answer: "La mentoría incluye sesiones en vivo con mentores, acompañamiento personalizado durante 4 meses, acceso a la comunidad de founders, feedback directo sobre tu proyecto, y networking con otros emprendedores."
     },
     {
       question: "¿Qué pasa si mi experimento 'falla'?",
-      answer: "¡Perfecto! Un experimento que 'falla' te ahorra meses de tiempo y dinero. El objetivo es encontrar la verdad, no confirmar lo que querés escuchar. Podes volver a repetir el proceso con otro experimento u otra idea de negocios."
+      answer: "¡Perfecto! Un experimento que 'falla' te ahorra meses de tiempo y dinero. El objetivo es encontrar la verdad, no confirmar lo que querés escuchar. Podés volver a repetir el proceso con otro experimento u otra idea de negocios."
     },
     {
       question: "¿Necesito conocimientos técnicos?",
-      answer: "No. Este curso lo han completado con éxito personas no-técnicas de 55+años. Los Asistentes de IA Especializados de Novolabs hacen el trabajo pesado."
+      answer: "No. Este curso lo han completado con éxito personas no-técnicas de 55+ años. Los Asistentes de IA Especializados de Novolabs hacen el trabajo pesado."
     },
     {
       question: "¿Hay soporte o comunidad?",
-      answer: "Si, tendrás soporte por WhatsApp durante los primeros 7 días del curso. Para acceder a la comunidad de emprendedores y al soporte extendido esta el Programa 'Lanzar' de 4 meses."
+      answer: "Sí, tendrás soporte por WhatsApp durante los primeros 7 días del curso. Para acceder a la comunidad de emprendedores y al soporte extendido está el Programa 'Lanzar' de 4 meses."
     },
     {
       question: "¿Qué pasa después del curso?",
-      answer: "Tendrás una idea de negocios estructurada, un nicho de clientes con capacidad de pago y un plan de acción definido. Podes ejecutarlo por tu cuenta o unirte al Programa 'Lanzar' de 4 meses con $300 USD de descuento (bono incluido)."
+      answer: "Tendrás una idea de negocios estructurada, un nicho de clientes con capacidad de pago y un plan de acción definido. Podés ejecutarlo por tu cuenta o unirte al Programa 'Lanzar' de 4 meses con $300 USD de descuento (bono incluido)."
     },
     {
       question: "¿Es realmente una garantía sin letra chica?",
-      answer: "Sí. Si seguís el método y no tenés claridad al día 7, reembolsamos 100% en 48hs. Sin preguntas. Así de simple."
+      answer: "Sí. Si seguís el método y no tenés claridad, reembolsamos 100% en 48hs. Sin preguntas. Así de simple."
     }
   ];
 
@@ -56,12 +59,8 @@ export function FAQSection() {
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-10">
           <h2 className="thunder-font text-2xl sm:text-3xl md:text-4xl text-novo-white mb-4">
-            Si aún quedan dudas...
+            LAS PREGUNTAS MAS FRECUENTES
           </h2>
-          <p className="text-lg sm:text-xl text-novo-grey">
-            <span className="sm:hidden">Preguntas frecuentes de la comunidad</span>
-            <span className="hidden sm:inline">Las preguntas más frecuentes de la comunidad</span>
-          </p>
         </div>
 
         <Accordion type="single" collapsible className="space-y-3">

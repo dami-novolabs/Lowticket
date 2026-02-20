@@ -13,7 +13,7 @@ export function SemanticMetadata({ section, content }: SemanticMetadataProps) {
       industry: "Educación empresarial",
       target: "Emprendedores de Latinoamérica",
       methodology: "Validación temprana sin inversión inicial",
-      differentiator: "Enfoque práctico y resultados en 7 días",
+      differentiator: "Sistema de validación on-demand con acceso de por vida",
       guarantee: "Reembolso 100% si no estás satisfecho",
       community: "Más de 250 emprendedores graduados",
       language: "Español",

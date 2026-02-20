@@ -196,10 +196,10 @@ export function ProblemSection() {
                   <div className="text-center">
                     <p className="text-novo-white/70 text-xs">
                       <span className="block sm:hidden">
-                        Accede de inmediato, por sólo 47 USD y Garantía del 100%
+                        {'Acceso inmediato por $390 USD. Garantía del 100%.'}
                       </span>
                       <span className="hidden sm:block">
-                        Accede de inmediato, por solo 47 USD y con una Garantía del 100%
+                        {'Acceso inmediato por $390 USD. Pago único. Garantía del 100%.'}
                       </span>
                     </p>
                   </div>
@@ -219,10 +219,10 @@ export function ProblemSection() {
         {/* Agitation - Mobile optimized */}
         <div className="text-center bg-novo-background-2 p-6 sm:p-8 rounded-2xl border border-novo-primary/20">
           <h3 className="thunder-font text-xl sm:text-2xl text-novo-white mb-3">
-            Por si aún no te diste cuenta 👇
+            {'DESPUÉS.'}
           </h3>
           <p className="text-lg sm:text-xl text-novo-grey leading-relaxed satoshi-font">
-            Invertir <span className="text-novo-primary thunder-font font-bold">$47 USD</span> para <span className="text-novo-secondary font-semibold">ahorrar</span> un montón de <span className="text-novo-secondary font-semibold">tiempo y errores evitables</span> <span className="text-novo-primary font-semibold">es</span> mucho más <span className="text-novo-primary font-semibold">barato</span> que <span className="text-novo-secondary font-semibold">seguir estancado</span> sin llegar a nada.
+            {'$390 es más barato que equivocarte.'}
           </p>
         </div>
       </div>

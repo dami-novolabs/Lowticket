@@ -17,21 +17,21 @@ export function HeroSection() {
         <div className="space-y-8">
           {/* Pre-headline - Optimized for mobile */}
           <div className="text-center">
-            <span className="text-novo-white font-semibold leading-relaxed text-sm sm:text-base md:text-lg px-4 sm:px-0 whitespace-nowrap">
-              ¿Ganas de emprender y miedo a quemar ahorros?
+            <span className="text-novo-white font-semibold leading-relaxed text-sm sm:text-base md:text-lg px-4 sm:px-0">
+              +250 founders en 16 pa&iacute;ses ya validaron con este sistema
             </span>
           </div>
 
           {/* Main Headline - Mobile optimized */}
           <div className="text-center space-y-6">
             <h1 className="thunder-font text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-novo-white leading-tight not-italic">
-              Encontrá tu idea ganadora y su nicho de clientes{' '}
-              <span className="text-novo-secondary">en 7 días</span>
+              {'CONSEGUÍ CLIENTES QUE PAGUEN ANTES DE ESCRIBIR UNA SOLA LÍNEA DE '}
+              <span className="text-novo-secondary">CÓDIGO.</span>
             </h1>
             
             {/* Sub-headline - Mobile optimized */}
             <p className="text-lg sm:text-xl text-novo-grey leading-relaxed max-w-3xl mx-auto">
-              Te damos un sistema 100% práctico con Asistentes de IA Especializados, para evaluar tus ideas y encontrar a tu cliente ideal.
+              El mismo sistema que usamos en Novolabs para evitar perder hasta $15.000 en ideas que nadie quer&iacute;a. Ahora disponible on-demand por 84% menos.
             </p>
           </div>
 
@@ -57,11 +57,13 @@ export function HeroSection() {
 
           {/* Pricing - Mobile optimized */}
           <div className="text-center space-y-4">
+            <p className="text-novo-grey text-sm">Programa completo de mentor&iacute;a: <span className="line-through">$2.500 USD</span></p>
             <div className="flex justify-center items-baseline gap-3 flex-wrap">
-              <span className="text-xl sm:text-2xl text-novo-grey line-through">US$200</span>
-              <span className="thunder-font text-3xl sm:text-4xl text-novo-primary">US$47</span>
-
+              <span className="thunder-font text-3xl sm:text-4xl text-novo-primary">$390</span>
+              <span className="text-novo-white text-base sm:text-lg font-medium">USD</span>
             </div>
+            <p className="text-novo-secondary text-sm font-semibold">ACCESO DE POR VIDA</p>
+            <p className="text-novo-grey text-xs">{'Pago único. Sin suscripción. Sin vencimiento.'}</p>
             
             {/* Guarantee - Mobile optimized */}
             <div className="flex items-center justify-center gap-3">
@@ -83,7 +85,7 @@ export function HeroSection() {
               }}
               className="w-full max-w-md mx-auto bg-novo-primary hover:bg-novo-primary/90 hover:scale-[1.02] text-novo-white px-8 py-5 rounded-lg text-lg font-bold transition-all duration-300 premium-float premium-pulse min-h-[56px] touch-manipulation transform-gpu active:scale-[0.98]"
             >
-              Ingresar ahora mismo
+              QUIERO EL SISTEMA COMPLETO
             </Button>
           </div>
 

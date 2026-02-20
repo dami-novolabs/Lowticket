@@ -27,12 +27,10 @@ export function OfferStackSection({ onOpenModal }: OfferStackSectionProps) {
 
             {/* Título Principal - Mobile optimized */}
             <div className="text-center mb-16">
+              <p className="text-novo-secondary text-sm font-semibold mb-4">ACCESO DE POR VIDA</p>
               <h2 className="thunder-font text-3xl sm:text-4xl md:text-5xl text-novo-white mb-6 leading-tight">
-                Empezá a trabajar en una idea que tenga potencial
+                {'$390 es más barato que equivocarte.'}
               </h2>
-              <p className="text-xl sm:text-2xl text-novo-grey max-w-3xl mx-auto font-light">
-                Por menos de lo que cuesta una cena para 2 en un restaurante.
-              </p>
             </div>
 
             {/* Badges de descuento */}
@@ -46,17 +44,18 @@ export function OfferStackSection({ onOpenModal }: OfferStackSectionProps) {
                 
                 <div className="relative z-10">
                   {/* Old price */}
-                  <div className="text-novo-grey/60 text-lg sm:text-xl line-through mb-3 font-medium">$200 USD</div>
+                  <div className="text-novo-grey/60 text-lg sm:text-xl line-through mb-3 font-medium">{'$2.500 USD'}</div>
                   
                   {/* Current price - main highlight */}
                   <div className="mb-6">
                     <div className="thunder-font text-6xl sm:text-7xl text-transparent bg-gradient-to-r from-novo-primary to-novo-primary/80 bg-clip-text leading-none relative inline-block pr-12 sm:pr-16">
-                      $47
+                      $390
                       <span className="text-novo-white text-base sm:text-lg font-medium absolute -top-1 sm:-top-2 -right-0 sm:-right-2">
                         USD
                       </span>
                     </div>
                   </div>
+                  <p className="text-novo-grey text-sm mb-2">{'Pago único. Sin suscripción. Sin vencimiento.'}</p>
                   
                   {/* Payment info */}
 
@@ -67,11 +66,11 @@ export function OfferStackSection({ onOpenModal }: OfferStackSectionProps) {
                       onClick={onOpenModal}
                       className="w-full bg-novo-primary hover:bg-novo-primary/90 hover:scale-[1.02] text-novo-white px-6 py-4 text-lg font-bold rounded-lg transition-all duration-300 premium-float premium-pulse mb-4 transform-gpu active:scale-[0.98]"
                     >
-                      👉 Acceder ahora
+                      QUIERO EL SISTEMA COMPLETO
                     </Button>
                     
-                    <p className="text-novo-grey mt-3 text-sm font-medium">
-                      Garantía de 7 días. Reembolso del 100%.
+                    <p className="text-novo-grey mt-3 text-xs">
+                      {'Acceso inmediato al finalizar el pago'}
                     </p>
                     <div className="flex items-center justify-center gap-3 text-novo-grey text-sm mt-3">
                       <div className="flex items-center gap-1">
@@ -157,7 +156,7 @@ export function OfferStackSection({ onOpenModal }: OfferStackSectionProps) {
 
                     <div className="flex items-start gap-4 group">
                       <span className="text-xl mt-1 flex-shrink-0 group-hover:scale-110 transition-transform">🎁</span>
-                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">Bonus #3: Cupón de US$ 300 OFF para el "Programa Lanzar".</span>
+                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">{'Bonus #3: Cupón de US$ 300 OFF para el "Programa Lanzar".'}</span>
                     </div>
                   </div>
                 </div>
@@ -174,8 +173,7 @@ export function OfferStackSection({ onOpenModal }: OfferStackSectionProps) {
                 onClick={onOpenModal}
                 className="bg-novo-primary hover:bg-novo-primary/90 hover:scale-[1.02] text-novo-white px-10 py-5 text-xl font-bold rounded-lg transition-all duration-300 premium-float premium-pulse mb-6 transform-gpu active:scale-[0.98]"
               >
-                <span className="mr-2 text-lg">👉</span>
-                Acceso inmediato
+                QUIERO EL SISTEMA COMPLETO
               </Button>
               
               <div className="flex items-center justify-center gap-4 mt-6 text-novo-grey">
@@ -189,8 +187,8 @@ export function OfferStackSection({ onOpenModal }: OfferStackSectionProps) {
                 </div>
               </div>
               <p className="text-novo-grey mt-4 text-lg font-medium">
-                <span className="sm:hidden">Garantía de 7 días.</span>
-                <span className="hidden sm:inline">Garantía de 7 días. Reembolso del 100%.</span>
+                <span className="sm:hidden">{'Acceso inmediato al finalizar el pago'}</span>
+                <span className="hidden sm:inline">{'Acceso inmediato al finalizar el pago. Garantía del 100%.'}</span>
               </p>
             </div>
 
