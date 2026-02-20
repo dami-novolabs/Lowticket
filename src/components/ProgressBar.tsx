@@ -1,0 +1,1 @@
+// Este archivo ha sido eliminado - la funcionalidad se movió a StickyNavbar.tsx

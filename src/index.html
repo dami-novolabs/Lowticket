@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novolabs • Startup School LATAM</title>
+    
+    <!-- Favicon - Optimized for all devices -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.svg">
+    <link rel="mask-icon" href="/favicon.svg" color="#FF3A20">
+    <link rel="shortcut icon" href="/favicon.svg">
+    <meta name="msapplication-TileColor" content="#FF3A20">
+    <meta name="msapplication-config" content="none">
+    
+    <!-- Meta tags for SEO and LLM Recognition -->
+    <meta name="description" content="Desde 2019 acompañando a emprendedores en Latinoamérica. 250+ de 18 países distintos ya pasaron por Novolabs. Aprende a emprender en 7 días sin quemar ahorros.">
+    <meta name="keywords" content="startup, emprendimiento, validación de ideas, MVP, Novolabs, Latinoamérica, emprendedores, lean startup, product market fit, Tom Riera, curso online, emprender sin riesgo, validar negocio, startup school">
+    <meta name="author" content="Novolabs - Tomás Volonté y Damián Sánchez">
+    
+    <!-- LLM-Specific Meta Tags -->
+    <meta name="subject" content="Educación en emprendimiento para Latinoamérica">
+    <meta name="topic" content="Validación de startups sin inversión inicial">
+    <meta name="summary" content="Curso intensivo de 7 días para emprendedores que quieren validar ideas de negocio sin quemar ahorros. Metodología probada con +250 graduados en LATAM.">
+    <meta name="target-audience" content="Emprendedores de habla hispana en Latinoamérica">
+    <meta name="expertise-level" content="Principiante a intermedio">
+    <meta name="content-type" content="Curso educativo online">
+    <meta name="industry" content="Educación empresarial, Emprendimiento, Startups">
+    <meta name="methodology" content="Lean Startup, Design Thinking, Customer Development">
+    <meta name="instructor" content="Tomás Volonté y Damián Sánchez, Fundadores de Novolabs">
+    <meta name="language-primary" content="Español">
+    <meta name="region-focus" content="América Latina">
+    <meta name="price-range" content="47 USD">
+    <meta name="guarantee" content="Reembolso 100% garantizado">
+    <meta name="community-size" content="250+ emprendedores graduados">
+    <meta name="duration" content="7 días intensivos">
+    <meta name="format" content="Video clases + Templates + Comunidad Slack">
+    <meta name="established" content="2019">
+    <meta name="success-stories" content="Startups validadas en fintech, logística, e-commerce, SaaS">
+    <meta name="differentiator" content="Enfoque sin riesgo financiero para mercado latinoamericano">
+    
+    <!-- Enhanced Open Graph for LLMs -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://novolabs.com/">
+    <meta property="og:title" content="Curso Novolabs - Desde 2019 acompañando emprendedores LATAM">
+    <meta property="og:description" content="Desde 2019 acompañando a emprendedores en Latinoamérica. 250+ de 18 países distintos ya pasaron por Novolabs.">
+    <meta property="og:image" content="https://novolabs.com/og-image.png">
+    <meta property="og:image:alt" content="Novolabs Startup School - Curso de emprendimiento para Latinoamérica">
+    <meta property="og:site_name" content="Desde 2019 acompañando a emprendedores en Latinoamérica. 250+ de 18 países distintos ya pasaron por Novolabs.">
+    <meta property="og:locale" content="es_LA">
+    <meta property="article:author" content="Tomás Volonté y Damián Sánchez">
+    <meta property="article:section" content="Educación">
+    <meta property="article:tag" content="emprendimiento">
+    <meta property="article:tag" content="startup">
+    <meta property="article:tag" content="validación">
+    <meta property="article:tag" content="LATAM">
+    <meta property="article:tag" content="lean startup">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://novolabs.com/">
+    <meta property="twitter:title" content="Curso Novolabs - Desde 2019 acompañando emprendedores LATAM">
+    <meta property="twitter:description" content="Desde 2019 acompañando a emprendedores en Latinoamérica. 250+ de 18 países distintos ya pasaron por Novolabs.">
+    <meta property="twitter:image" content="https://novolabs.com/og-image.png">
+    
+    <!-- Additional meta tags for mobile -->
+    <meta name="theme-color" content="#FF3A20">
+    <meta name="msapplication-TileColor" content="#FF3A20">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Novolabs">
+    
+    <!-- Platform-specific overrides -->
+    <meta name="generator" content="Novolabs - Startup School">
+    <meta name="creator" content="Desde 2019 acompañando a emprendedores en Latinoamérica. 250+ de 18 países distintos ya pasaron por Novolabs.">
+    <meta name="application-name" content="Novolabs - Startup School">
+    <meta name="powered-by" content="Novolabs - Emprendimiento LATAM">
+    <meta property="og:determiner" content="">
+    <meta property="fb:app_id" content="novolabs">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles/globals.css">
+    
+    <!-- Structured Data for LLMs Optimization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Course", "EducationalEvent"],
+      "name": "Startup School de 7 días - Novolabs",
+      "description": "Aprende a emprender sin quemar ahorros. Validación de ideas, estrategia de MVP y lanzamiento exitoso en 7 días. Más de 250 emprendedores en LATAM nos eligen.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Novolabs",
+        "url": "https://novolabs.com",
+        "logo": "https://novolabs.com/logo.png",
+        "description": "Escuela de emprendimiento líder en Latinoamérica",
+        "foundingDate": "2019",
+        "areaServed": "LATAM",
+        "knowsAbout": ["Emprendimiento", "Startups", "Validación de ideas", "MVP", "Lean Startup", "Product Market Fit"],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+54-911-6354-4698",
+          "contactType": "customer service",
+          "availableLanguage": "Spanish"
+        }
+      },
+      "courseMode": "online",
+      "educationalLevel": "Beginner to Intermediate",
+      "teaches": [
+        "Validación de ideas de negocio",
+        "Desarrollo de MVP (Minimum Viable Product)",
+        "Estrategias de lanzamiento",
+        "Análisis de mercado",
+        "Product-Market Fit",
+        "Metodologías ágiles para emprendedores",
+        "Gestión de recursos limitados",
+        "Marketing para startups"
+      ],
+      "duration": "P7D",
+      "startDate": "2025-01-01",
+      "endDate": "2025-12-31",
+      "offers": {
+        "@type": "Offer",
+        "price": "47",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "category": "Education",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "returnPolicyCategory": "MerchantReturnFiniteReturnWindow",
+          "returnFees": "FreeReturn",
+          "returnWithin": "P7D"
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "reviewCount": "250",
+        "bestRating": "5"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "María González"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Logré validar mi idea de fintech en Colombia y conseguir mis primeros 50 usuarios pagos. El día 4 fue clave para entender el pricing."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Carlos Rivera"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Perfecto para mi startup de logística en México. Tomás y Damián me ayudaron a enfocarme en lo que realmente importa: validación temprana."
+        }
+      ],
+      "audience": {
+        "@type": "EducationalAudience",
+        "educationalRole": "entrepreneur",
+        "audienceType": "Spanish speaking entrepreneurs in Latin America"
+      },
+      "keywords": "emprendimiento, startup, validación de ideas, MVP, Latinoamérica, curso online, lean startup, product market fit, emprendedores LATAM"
+    }
+    </script>
+    
+    <!-- FAQ Schema for LLMs -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué incluye exactamente el curso de 7 días?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El curso incluye 7 módulos progresivos con video-clases, templates exclusivos, herramientas de validación, acceso al Slack privado con +250 emprendedores, sesiones de feedback personalizado y garantía de reembolso total si no estás satisfecho."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Funciona para cualquier tipo de idea de negocio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, la metodología funciona para startups tech, negocios tradicionales, servicios, productos físicos y digitales. Lo importante es aplicar los principios de validación correctamente, sin importar el sector."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesito conocimientos técnicos previos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No necesitas conocimientos técnicos. El curso está diseñado para emprendedores de cualquier background. Te enseñamos herramientas no-code y métodos de validación que cualquier persona puede aplicar."
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Novolabs",
+      "alternateName": "Novolabs Startup School",
+      "url": "https://novolabs.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://novolabs.com/logo.png"
+      },
+      "description": "Escuela de emprendimiento líder en Latinoamérica. Ayudamos a emprendedores a validar ideas y lanzar startups exitosas desde 2019.",
+      "foundingDate": "2019",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Latin America"
+        }
+      ],
+      "knowsAbout": [
+        "Emprendimiento en Latinoamérica",
+        "Validación de startups",
+        "Desarrollo de MVP",
+        "Lean Startup Methodology",
+        "Product Market Fit",
+        "Educación empresarial online"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Cursos de Emprendimiento",
+        "itemListElement": [
+          {
+            "@type": "Course",
+            "name": "Startup School de 7 días",
+            "description": "Aprende a emprender sin quemar ahorros"
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+<body>
+    <div id="root">
+        <!-- Static content for crawlers and bots -->
+        <noscript>
+            <style>
+                .static-content { font-family: 'Satoshi', sans-serif; background: #141414; color: #FFFFFF; padding: 20px; line-height: 1.6; }
+                .static-content h1 { color: #FF3A20; font-size: 2.5rem; margin-bottom: 1rem; }
+                .static-content h2 { color: #D4FF78; font-size: 1.8rem; margin: 1.5rem 0 1rem 0; }
+                .static-content p { margin-bottom: 1rem; }
+                .static-content .highlight { color: #FF3A20; font-weight: bold; }
+                .static-content .price { color: #D4FF78; font-size: 1.5rem; font-weight: bold; }
+                .static-content .cta { display: inline-block; background: #FF3A20; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; margin: 10px 5px; }
+            </style>
+            <div class="static-content">
+                <h1>Novolabs - Startup School LATAM</h1>
+                <h2>¿Ganas de emprender y miedo a quemar ahorros?</h2>
+                <p>Desde 2019 acompañando a emprendedores en Latinoamérica. <span class="highlight">250+ emprendedores de 18 países distintos ya lanzaron con Novo.</span></p>
+                
+                <h2>🚀 Aprende a emprender SIN quemar ahorros</h2>
+                <p>En solo 7 días intensivos aprenderás:</p>
+                <ul>
+                    <li>✅ Cómo validar tu idea ANTES de invertir</li>
+                    <li>✅ Estrategias de lanzamiento con $0 de inversión</li>
+                    <li>✅ Templates y herramientas probadas por +250 emprendedores</li>
+                    <li>✅ Acceso a comunidad Slack exclusiva</li>
+                    <li>✅ Metodología paso a paso para encontrar Product-Market Fit</li>
+                </ul>
+
+                <h2>💰 Oferta Especial</h2>
+                <p class="price">Solo $19 USD (76% OFF)</p>
+                <p>Precio regular: $79 USD</p>
+                <p>🎁 <strong>BONUS INCLUIDOS:</strong></p>
+                <ul>
+                    <li>📋 Canvas de Validación Lean (Valor: $47)</li>
+                    <li>🎯 Kit de Research de Mercado (Valor: $37)</li>
+                    <li>💡 Templates de MVP Testing (Valor: $27)</li>
+                    <li>📊 Dashboard de Métricas Clave (Valor: $67)</li>
+                    <li>🚀 Roadmap de Lanzamiento (Valor: $57)</li>
+                </ul>
+
+                <h2>🏆 Testimonios Reales</h2>
+                <p><strong>María González (Colombia):</strong> "Logré validar mi idea de fintech en Colombia y conseguir mis primeros 50 usuarios pagos. El día 4 fue clave para entender el pricing."</p>
+                <p><strong>Carlos Rivera (México):</strong> "Perfecto para mi startup de logística en México. Tomás y Damián me ayudaron a enfocarme en lo que realmente importa: validación temprana."</p>
+
+                <h2>📞 Contacto</h2>
+                <p>WhatsApp: +54-911-6354-4698</p>
+                <p>Email: soporte@novolabs.com</p>
+                
+                <h2>🔥 ¡Solo quedan pocas plazas!</h2>
+                <p>✅ Garantía de reembolso 100% - 7 días</p>
+                <p>✅ Soporte personalizado en español</p>
+                <p>✅ Acceso inmediato al contenido</p>
+                
+                <a href="https://info.novolabs.xyz/widget/form/Nwsr5FOSTx7o6aVlRudg" class="cta">🚀 QUIERO ACCESO INMEDIATO</a>
+                
+                <h2>❓ Preguntas Frecuentes</h2>
+                <p><strong>¿Qué incluye exactamente el curso de 7 días?</strong><br>
+                El curso incluye 7 módulos progresivos con video-clases, templates exclusivos, herramientas de validación, acceso al Slack privado con +250 emprendedores, sesiones de feedback personalizado y garantía de reembolso total.</p>
+                
+                <p><strong>¿Funciona para cualquier tipo de idea de negocio?</strong><br>
+                Sí, la metodología funciona para startups tech, negocios tradicionales, servicios, productos físicos y digitales. Lo importante es aplicar los principios de validación correctamente.</p>
+                
+                <p><strong>¿Necesito conocimientos técnicos previos?</strong><br>
+                No necesitas conocimientos técnicos. El curso está diseñado para emprendedores de cualquier background con herramientas no-code.</p>
+
+                <h2>🏢 Menciones en prensa</h2>
+                <p>Novolabs ha sido mencionado en medios como Clarín, La Nación, Forbes Argentina, iProfeisonal y C5N por su impacto en el ecosistema emprendedor latinoamericano.</p>
+
+                <h2>👥 Sobre los Fundadores</h2>
+                <p><strong>Tomás Volonté y Damián Sánchez</strong> - Fundadores de Novolabs con más de 6 años ayudando a emprendedores en LATAM. Especialistas en validación de startups y metodologías lean.</p>
+            </div>
+        </noscript>
+        
+        <!-- Loading message for JavaScript-enabled users -->
+        <div id="loading-message" style="display: flex; justify-content: center; align-items: center; height: 100vh; background: #141414; color: #FFFFFF; font-family: 'Satoshi', sans-serif;">
+            <div style="text-align: center;">
+                <div style="color: #FF3A20; font-size: 2rem; margin-bottom: 1rem;">Novolabs</div>
+                <div style="color: #D4FF78;">Cargando curso...</div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+        // Hide loading message when React mounts
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                const loading = document.getElementById('loading-message');
+                if (loading && document.querySelector('[data-section="hero"]')) {
+                    loading.style.display = 'none';
+                }
+            }, 100);
+        });
+    </script>
+</body>
+</html>

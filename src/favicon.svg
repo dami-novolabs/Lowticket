@@ -1,0 +1,11 @@
+<svg xmlns="https://drive.google.com/file/d/10Gatzb9mL9DtuzsjIu1Ekba57Xk0vLwV/view?usp=sharing" viewBox="0 0 32 32" fill="none">
+  <!-- Background Circle -->
+  <rect width="32" height="32" rx="6" fill="#FF3A20"/>
+  
+  <!-- Stylized "N" Letter -->
+  <path d="M8 6 L8 26 L12 26 L12 16 L20 26 L24 26 L24 6 L20 6 L20 16 L12 6 Z" 
+        fill="#FFFFFF"/>
+  
+  <!-- Modern accent dot -->
+  <circle cx="26" cy="8" r="2" fill="#D4FF78"/>
+</svg>
