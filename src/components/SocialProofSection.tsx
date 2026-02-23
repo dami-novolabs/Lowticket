@@ -238,7 +238,7 @@ export function SocialProofSection() {
           {/* Historical credibility message - After carousel */}
           {loadingComplete && validReviews.length > 0 && (
             <div className="text-center mt-8">
-              <p className="text-novo-grey text-sm">Desde el 2019 ayudando a emprendedores. Menciones en prensa:</p>
+              <p className="text-novo-grey text-sm">{'Novolabs acompaña emprendedores desde el 2019.'}</p>
             </div>
           )}
         </div>
