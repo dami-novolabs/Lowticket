@@ -18,7 +18,7 @@ export function HeroSection() {
           {/* Pre-headline - Optimized for mobile */}
           <div className="text-center">
             <span className="text-novo-white font-semibold leading-relaxed text-sm sm:text-base md:text-lg px-4 sm:px-0">
-              +350 personas ya lanzaron su idea con este sistema
+              {'¿Tenes una idea en mente pero te da miedo malgastar ahorros?'}
             </span>
           </div>
 
