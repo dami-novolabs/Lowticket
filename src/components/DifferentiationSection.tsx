@@ -8,7 +8,7 @@ export function DifferentiationSection() {
     "Querés validar sin renunciar a tu trabajo",
     "Sabés construir pero no sabés vender",
     "Sos profesional y querés emprender con método",
-    "Querés aprender el sistema antes de invertir $2.500"
+    "Querés aprender el sistema antes de invertir $1.150"
   ];
 
   const noEsParaVos = [

@@ -98,7 +98,7 @@ export function StickyFloatingCTA({ onOpenModal }: StickyFloatingCTAProps) {
           <div className="flex items-center justify-between mb-2">
             <div className="flex items-center gap-1.5">
               <div className="w-1.5 h-1.5 bg-novo-secondary rounded-full animate-pulse"></div>
-              <span className="text-novo-secondary font-bold text-xs">84% OFF</span>
+              <span className="text-novo-secondary font-bold text-xs">66% OFF</span>
             </div>
           <button 
             onClick={handleDismiss}
@@ -111,7 +111,7 @@ export function StickyFloatingCTA({ onOpenModal }: StickyFloatingCTAProps) {
         {/* Precios compactos */}
         <div className="text-center mb-3">
           <div className="flex items-center justify-center gap-2">
-            <span className="text-novo-grey line-through text-sm">{'$2.500'}</span>
+            <span className="text-novo-grey line-through text-sm">{'$1.150'}</span>
             <span className="text-novo-primary font-bold text-xl">
               $390 <span className="text-sm">USD</span>
             </span>

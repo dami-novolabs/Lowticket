@@ -57,7 +57,7 @@ export function HeroSection() {
 
           {/* Pricing - Mobile optimized */}
           <div className="text-center space-y-4">
-            <p className="text-novo-grey text-sm">Programa completo de mentor&iacute;a: <span className="line-through">$2.500 USD</span></p>
+            <p className="text-novo-grey text-sm">Programa completo de mentor&iacute;a: <span className="line-through">$1.150 USD</span></p>
             <div className="flex justify-center items-baseline gap-3 flex-wrap">
               <span className="thunder-font text-3xl sm:text-4xl text-novo-primary">$390</span>
               <span className="text-novo-white text-base sm:text-lg font-medium">USD</span>

@@ -44,7 +44,7 @@ export function OfferStackSection({ onOpenModal }: OfferStackSectionProps) {
                 
                 <div className="relative z-10">
                   {/* Old price */}
-                  <div className="text-novo-grey/60 text-lg sm:text-xl line-through mb-3 font-medium">{'$2.500 USD'}</div>
+                  <div className="text-novo-grey/60 text-lg sm:text-xl line-through mb-3 font-medium">{'$1.150 USD'}</div>
                   
                   {/* Current price - main highlight */}
                   <div className="mb-6">

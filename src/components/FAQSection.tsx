@@ -25,11 +25,11 @@ export function FAQSection() {
       answer: "Sí, aceptamos pagos en dólares desde toda Latinoamérica. Nuestro proveedor de pagos es Stripe, empresa líder en infraestructura de pagos para comercio internacional."
     },
     {
-      question: "¿Por qué cuesta $390 y no $2.500 como la mentoría?",
+      question: "¿Por qué cuesta $390 y no $1.150 como la mentoría?",
       answer: "Porque el curso on-demand no incluye el acompañamiento personalizado, las sesiones en vivo, ni el acceso a la comunidad extendida. Incluye el sistema completo de validación para que puedas ejecutar por tu cuenta."
     },
     {
-      question: "¿Qué incluye exactamente la mentoría de $2.500 que esto no tiene?",
+      question: "¿Qué incluye exactamente la mentoría de $1.150 que esto no tiene?",
       answer: "La mentoría incluye sesiones en vivo con mentores, acompañamiento personalizado durante 4 meses, acceso a la comunidad de founders, feedback directo sobre tu proyecto, y networking con otros emprendedores."
     },
     {

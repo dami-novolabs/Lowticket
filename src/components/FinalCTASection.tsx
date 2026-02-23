@@ -34,7 +34,7 @@ export function FinalCTASection({ onOpenModal }: FinalCTASectionProps) {
             </h2>
 
             <p className="text-novo-black/70 satoshi-font text-sm mb-2">{'Acceso inmediato. Garantía de 7 días.'}</p>
-            <p className="text-novo-black/60 satoshi-font text-xs mb-2">{'Mentoría completa: $2.500'}</p>
+            <p className="text-novo-black/60 satoshi-font text-xs mb-2">{'Mentoría completa: $1.150'}</p>
             <p className="text-novo-black/60 satoshi-font text-xs mb-2">{'Costo promedio de un MVP sin validar: $10.000+'}</p>
             <p className="text-novo-black/60 satoshi-font text-xs mb-6">{'Costo emocional de fallar: meses perdidos'}</p>
 
