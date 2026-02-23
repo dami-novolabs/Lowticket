@@ -31,7 +31,7 @@ export function HeroSection() {
             
             {/* Sub-headline - Mobile optimized */}
             <p className="text-lg sm:text-xl text-novo-grey leading-relaxed max-w-3xl mx-auto">
-              El mismo sistema que usamos en Novolabs para evitar perder hasta $15.000 en ideas que nadie quer&iacute;a. Ahora disponible on-demand por 84% menos.
+              {'Gracias al Sistema de Validación Paga\u2122 evitarás malgastar miles de dólares y meses de tu vida para dar en la tecla con lo que funciona.'}
             </p>
           </div>
 
