@@ -78,7 +78,7 @@ function TrustpilotStars({ rating }: { rating: number }) {
 
 function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
   return (
-    <div className="bg-white rounded-xl border border-gray-200 p-5 sm:p-6 hover:border-lime-400/50 hover:shadow-sm transition-all duration-300">
+    <div style={{ backgroundColor: '#ffffff', color: '#111827' }} className="rounded-xl border border-gray-200 p-5 sm:p-6 hover:border-lime-400/50 hover:shadow-sm transition-all duration-300">
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center gap-3">
@@ -89,7 +89,7 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
             crossOrigin="anonymous"
           />
           <div>
-            <p className="font-semibold text-gray-900 text-sm sm:text-base">{testimonial.name}</p>
+            <p className="font-semibold text-sm sm:text-base" style={{ color: '#111827' }}>{testimonial.name}</p>
             <div className="flex gap-0.5 mt-0.5">
               {[...Array(5)].map((_, i) => (
                 <StarIcon key={i} filled />
@@ -108,7 +108,7 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
         </a>
       </div>
       {/* Body */}
-      <p className="text-gray-700 text-sm sm:text-base leading-relaxed italic">
+      <p className="text-sm sm:text-base leading-relaxed italic" style={{ color: '#374151' }}>
         {testimonial.text}
       </p>
     </div>
@@ -117,20 +117,20 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
 
 export function SocialProofSection() {
   return (
-    <section className="bg-white py-16 sm:py-20 px-4">
+    <section style={{ backgroundColor: '#ffffff' }} className="py-16 sm:py-20 px-4">
       <div className="container mx-auto max-w-7xl">
         {/* Title */}
         <div className="text-center mb-10 sm:mb-14">
-          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl text-gray-900 font-bold leading-tight text-balance">
+          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold leading-tight text-balance" style={{ color: '#111827' }}>
             {'Antes de seguir, '}
-            <span className="text-red-500 italic">{'leé esto:'}</span>
+            <span style={{ color: '#EF4444' }} className="italic">{'leé esto:'}</span>
           </h2>
-          <p className="text-gray-500 text-base sm:text-lg mt-3">
+          <p className="text-base sm:text-lg mt-3" style={{ color: '#6B7280' }}>
             {'Algunas de las +300 personas que ya pasaron por Novolabs.'}
           </p>
         </div>
 
-        {/* Testimonial Cards */}
+        {/* Testimonial Cards - 3 columns on desktop */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6 max-w-6xl mx-auto mb-10 sm:mb-12">
           {testimonials.map((t) => (
             <TestimonialCard key={t.name} testimonial={t} />
@@ -139,14 +139,15 @@ export function SocialProofSection() {
 
         {/* Trustpilot Rating */}
         <div className="flex items-center justify-center gap-2 mb-16 sm:mb-20">
-          <span className="text-gray-900 font-bold text-lg">4.8</span>
+          <span className="font-bold text-lg" style={{ color: '#111827' }}>4.8</span>
           <TrustpilotStars rating={4.8} />
-          <span className="text-gray-500 text-sm">en</span>
+          <span className="text-sm" style={{ color: '#6B7280' }}>en</span>
           <a
             href="https://www.trustpilot.com/review/novolabs.xyz"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-900 font-semibold text-sm underline underline-offset-2 hover:text-gray-600 transition-colors"
+            className="font-semibold text-sm underline underline-offset-2 transition-colors"
+            style={{ color: '#111827' }}
           >
             Trustpilot
           </a>
