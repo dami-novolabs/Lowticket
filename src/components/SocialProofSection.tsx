@@ -134,7 +134,7 @@ export function SocialProofSection() {
           <h2 className="thunder-font text-3xl md:text-4xl text-novo-white text-[32px]">
             <span className="text-novo-secondary">350+ Alumni</span> en <span className="text-novo-primary">Latinoam&eacute;rica</span>
           </h2>
-          <p className="text-novo-grey text-lg mt-2">+350 personas en 18 pa&iacute;ses ya lanzaron su idea con este sistema</p>
+          <p className="text-novo-grey text-lg mt-2">{'Ya lanzaron su idea al mercado y consiguieron sus primeros clientes aplicando esta metodología.'}</p>
         </div>
 
         {/* Trustpilot Reviews Carousel */}
