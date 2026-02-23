@@ -63,7 +63,12 @@ export function HeroSection() {
               <span className="text-novo-white text-base sm:text-lg font-medium">USD</span>
             </div>
             <p className="text-novo-secondary text-sm font-semibold">ACCESO DE POR VIDA</p>
-            <p className="text-novo-grey text-xs">{'Pago seguro \u2022 Acceso inmediato'}</p>
+            <div className="flex items-center justify-center gap-3">
+              <Shield className="w-5 h-5 text-novo-secondary flex-shrink-0" />
+              <span className="text-novo-grey text-sm sm:text-base">
+                {'Garant\u00eda de 7 d\u00edas. Reembolso del 100%'}
+              </span>
+            </div>
           </div>
 
           {/* CTA Button - Mobile optimized with larger touch target */}
@@ -81,14 +86,9 @@ export function HeroSection() {
             </Button>
           </div>
 
-          {/* Guarantee - Below CTA */}
+          {/* Trust indicator - Below CTA */}
           <div className="text-center">
-            <div className="flex items-center justify-center gap-3">
-              <Shield className="w-5 h-5 text-novo-secondary flex-shrink-0" />
-              <span className="text-novo-grey text-sm sm:text-base">
-                {'Garant\u00eda de 7 d\u00edas. Reembolso del 100%'}
-              </span>
-            </div>
+            <p className="text-novo-grey text-xs">{'Pago seguro \u2022 Acceso inmediato'}</p>
           </div>
         </div>
       </div>
