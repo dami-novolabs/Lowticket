@@ -19,19 +19,19 @@ const testimonials: Testimonial[] = [
   {
     name: 'Alexy Narváez',
     linkedIn: 'https://www.linkedin.com/in/alexy-eduardo-narvaez-gonzalez-0958a31a/?originalSubdomain=cl',
-    avatar: '/avatars/alexy-narvaez.jpg',
+    avatar: '/avatars/alexy-narvaez.png',
     text: '"Es un proceso adaptado a cada industria, con acompañamiento real. Aprendí a testear mi idea sin tirar plata antes de tiempo. La comunidad es excelente, todos apoyándose."',
   },
   {
     name: 'Magdalena Laplacette',
     linkedIn: 'https://www.linkedin.com/in/magdalena-laplacette/',
-    avatar: '/avatars/magdalena-laplacette.jpg',
+    avatar: '/avatars/magdalena-laplacette.png',
     text: '"Los chicos de Novolabs, tanto Dami, Tomi como todo el equipo de mentores, son grandes profesionales que te ayudan a llevar a cabo tu proyecto, con paciencia, sabiduría, y lo mas importante, desafiandote a ir por todo."',
   },
   {
     name: 'Hernán Farruggia',
     linkedIn: 'https://www.linkedin.com/in/hernanfarruggia/',
-    avatar: '/avatars/hernan-farruggia.jpg',
+    avatar: '/avatars/hernan-farruggia.png',
     text: '"Entré con ideas vagas y salí con un plan claro. Me ayudaron a evitar errores costosos y a enfocarme en lo que realmente importa. Hoy ya tengo tracción real."',
   },
 ];
