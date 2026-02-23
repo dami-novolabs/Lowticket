@@ -60,28 +60,25 @@ export function OfferStackSection({ onOpenModal }: OfferStackSectionProps) {
                   {/* Payment info */}
 
 
-                  {/* Duplicated CTA inside pricing card */}
-                  <div className="text-center mt-6">
-                    <Button 
-                      onClick={onOpenModal}
-                      className="w-full bg-novo-primary hover:bg-novo-primary/90 hover:scale-[1.02] text-novo-white px-6 py-4 text-lg font-bold rounded-lg transition-all duration-300 premium-float premium-pulse mb-4 transform-gpu active:scale-[0.98]"
-                    >
-                      QUIERO EL SISTEMA COMPLETO
-                    </Button>
-                    
-                    <p className="text-novo-grey mt-3 text-xs">
-                      {'Acceso inmediato al finalizar el pago'}
-                    </p>
-                    <div className="flex items-center justify-center gap-3 text-novo-grey text-sm mt-3">
-                      <div className="flex items-center gap-1">
-                        <Shield className="w-4 h-4 text-novo-secondary" />
-                        <span className="font-medium">Pago Seguro</span>
-                      </div>
-                      <div className="w-px h-4 bg-novo-grey/30"></div>
-                      <div className="flex items-center gap-1">
-                        <span className="text-[#635BFF] font-bold tracking-wider text-xs">STRIPE</span>
-                      </div>
-                    </div>
+                  {/* Embedded form */}
+                  <div className="mt-6">
+                    <iframe
+                      src="https://info.novolabs.xyz/widget/form/F5PAAmItBsBI6qPtf3wN"
+                      style={{ width: '100%', height: '415px', border: 'none', borderRadius: '3px' }}
+                      id="inline-F5PAAmItBsBI6qPtf3wN-offer"
+                      data-layout='{"id":"INLINE"}'
+                      data-trigger-type="alwaysShow"
+                      data-trigger-value=""
+                      data-activation-type="alwaysActivated"
+                      data-activation-value=""
+                      data-deactivation-type="neverDeactivate"
+                      data-deactivation-value=""
+                      data-form-name="Mid Ticket Novolabs"
+                      data-height="415"
+                      data-layout-iframe-id="inline-F5PAAmItBsBI6qPtf3wN-offer"
+                      data-form-id="F5PAAmItBsBI6qPtf3wN"
+                      title="Mid Ticket Novolabs"
+                    />
                   </div>
                 </div>
                 
@@ -166,30 +163,25 @@ export function OfferStackSection({ onOpenModal }: OfferStackSectionProps) {
             {/* Proceso de inscripción */}
 
 
-            {/* CTA Principal */}
-            {/* Original CTA - restored to its original position */}
-            <div className="text-center mb-12">
-              <Button 
-                onClick={onOpenModal}
-                className="bg-novo-primary hover:bg-novo-primary/90 hover:scale-[1.02] text-novo-white px-10 py-5 text-xl font-bold rounded-lg transition-all duration-300 premium-float premium-pulse mb-6 transform-gpu active:scale-[0.98]"
-              >
-                QUIERO EL SISTEMA COMPLETO
-              </Button>
-              
-              <div className="flex items-center justify-center gap-4 mt-6 text-novo-grey">
-                <div className="flex items-center gap-2">
-                  <Shield className="w-5 h-5 text-novo-secondary" />
-                  <span className="font-medium">Pago Seguro</span>
-                </div>
-                <div className="w-px h-5 bg-novo-grey/30"></div>
-                <div className="flex items-center gap-2">
-                  <span className="text-[#635BFF] font-bold tracking-wider">STRIPE</span>
-                </div>
-              </div>
-              <p className="text-novo-grey mt-4 text-lg font-medium">
-                <span className="sm:hidden">{'Acceso inmediato al finalizar el pago'}</span>
-                <span className="hidden sm:inline">{'Acceso inmediato al finalizar el pago. Garantía del 100%.'}</span>
-              </p>
+            {/* CTA Principal - Embedded form */}
+            <div className="max-w-lg mx-auto mb-12">
+              <iframe
+                src="https://info.novolabs.xyz/widget/form/F5PAAmItBsBI6qPtf3wN"
+                style={{ width: '100%', height: '415px', border: 'none', borderRadius: '3px' }}
+                id="inline-F5PAAmItBsBI6qPtf3wN-bottom"
+                data-layout='{"id":"INLINE"}'
+                data-trigger-type="alwaysShow"
+                data-trigger-value=""
+                data-activation-type="alwaysActivated"
+                data-activation-value=""
+                data-deactivation-type="neverDeactivate"
+                data-deactivation-value=""
+                data-form-name="Mid Ticket Novolabs"
+                data-height="415"
+                data-layout-iframe-id="inline-F5PAAmItBsBI6qPtf3wN-bottom"
+                data-form-id="F5PAAmItBsBI6qPtf3wN"
+                title="Mid Ticket Novolabs"
+              />
             </div>
 
           </div>
