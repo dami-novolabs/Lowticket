@@ -57,21 +57,13 @@ export function HeroSection() {
 
           {/* Pricing - Mobile optimized */}
           <div className="text-center space-y-4">
-            <p className="text-novo-grey text-sm">Programa completo de mentor&iacute;a: <span className="line-through">$1.150 USD</span></p>
+            <p className="text-novo-grey text-sm">{'Precio regular:'} <span className="line-through">$1.150 USD</span></p>
             <div className="flex justify-center items-baseline gap-3 flex-wrap">
               <span className="thunder-font text-3xl sm:text-4xl text-novo-primary">$390</span>
               <span className="text-novo-white text-base sm:text-lg font-medium">USD</span>
             </div>
             <p className="text-novo-secondary text-sm font-semibold">ACCESO DE POR VIDA</p>
-            <p className="text-novo-grey text-xs">{'Pago único. Sin suscripción. Sin vencimiento.'}</p>
-            
-            {/* Guarantee - Mobile optimized */}
-            <div className="flex items-center justify-center gap-3">
-              <Shield className="w-5 h-5 text-novo-secondary flex-shrink-0" />
-              <span className="text-novo-grey text-sm sm:text-base">
-                Garantía de 7 días. Reembolso del 100%
-              </span>
-            </div>
+            <p className="text-novo-grey text-xs">{'Pago seguro \u2022 Acceso inmediato'}</p>
           </div>
 
           {/* CTA Button - Mobile optimized with larger touch target */}
@@ -89,11 +81,14 @@ export function HeroSection() {
             </Button>
           </div>
 
-          {/* Trust indicators - Mobile */}
+          {/* Guarantee - Below CTA */}
           <div className="text-center">
-            <p className="text-novo-grey text-sm">
-              Pago seguro • Acceso inmediato
-            </p>
+            <div className="flex items-center justify-center gap-3">
+              <Shield className="w-5 h-5 text-novo-secondary flex-shrink-0" />
+              <span className="text-novo-grey text-sm sm:text-base">
+                {'Garant\u00eda de 7 d\u00edas. Reembolso del 100%'}
+              </span>
+            </div>
           </div>
         </div>
       </div>
