@@ -80,7 +80,7 @@ export function DifferentiationSection() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <div className="text-center">
                 <div className="thunder-font text-2xl md:text-3xl text-novo-white mb-1">
-                  +250
+                  +350
                 </div>
                 <div className="text-novo-grey text-sm">
                   Estudiantes

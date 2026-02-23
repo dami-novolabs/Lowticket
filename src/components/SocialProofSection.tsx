@@ -132,9 +132,9 @@ export function SocialProofSection() {
         {/* Main Metric */}
         <div className="text-center mb-16">
           <h2 className="thunder-font text-3xl md:text-4xl text-novo-white text-[32px]">
-            <span className="text-novo-secondary">250+ Alumni</span> en <span className="text-novo-primary">Latinoam&eacute;rica</span>
+            <span className="text-novo-secondary">350+ Alumni</span> en <span className="text-novo-primary">Latinoam&eacute;rica</span>
           </h2>
-          <p className="text-novo-grey text-lg mt-2">+250 founders en 16 pa&iacute;ses ya validaron con este sistema</p>
+          <p className="text-novo-grey text-lg mt-2">+350 personas en 18 pa&iacute;ses ya lanzaron su idea con este sistema</p>
         </div>
 
         {/* Trustpilot Reviews Carousel */}

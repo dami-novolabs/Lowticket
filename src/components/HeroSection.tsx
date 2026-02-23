@@ -18,7 +18,7 @@ export function HeroSection() {
           {/* Pre-headline - Optimized for mobile */}
           <div className="text-center">
             <span className="text-novo-white font-semibold leading-relaxed text-sm sm:text-base md:text-lg px-4 sm:px-0">
-              +250 founders en 16 pa&iacute;ses ya validaron con este sistema
+              +350 personas ya lanzaron su idea con este sistema
             </span>
           </div>
 
@@ -50,7 +50,7 @@ export function HeroSection() {
               </div>
               
               <div className="absolute -bottom-3 -left-3 bg-[rgba(255,58,32,0.35)] text-novo-white px-3 py-1.5 rounded-lg text-sm font-bold shadow-lg">
-                250+ Alumni en LATAM
+                350+ Alumni en LATAM
               </div>
             </div>
           </div>

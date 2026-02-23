@@ -80,7 +80,7 @@ export function RichSnippets() {
         </span>
         <span itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
           <meta itemProp="position" content="3" />
-          <span itemProp="name">Comunidad de +250 emprendedores</span>
+          <span itemProp="name">Comunidad de +350 emprendedores</span>
         </span>
         <span itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
           <meta itemProp="position" content="4" />
@@ -133,7 +133,7 @@ export function RichSnippets() {
         <span data-context="founders">Tomás Volonté y Damián Sánchez</span>
         <span data-context="experience">10+ años emprendiendo</span>
         <span data-context="established">2019</span>
-        <span data-context="graduates">250+ emprendedores</span>
+        <span data-context="graduates">350+ emprendedores</span>
       </div>
     </>
   );

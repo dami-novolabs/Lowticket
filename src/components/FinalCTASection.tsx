@@ -69,7 +69,7 @@ export function FinalCTASection({ onOpenModal }: FinalCTASectionProps) {
         
         {/* Social Validation Text - Outside Card */}
         <p className="text-novo-white satoshi-font font-medium text-sm text-center mt-6 mb-2">
-          {'250+ personas en Latinoamérica ya lanzaron con Novo'}
+          {'350+ personas en Latinoamérica ya lanzaron con Novo'}
         </p>
         <p className="text-novo-grey satoshi-font text-xs text-center mb-4">
           {'Muchos founders empiezan con el on-demand. Después aplican a la mentoría con claridad total.'}

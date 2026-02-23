@@ -15,7 +15,7 @@ export function SemanticMetadata({ section, content }: SemanticMetadataProps) {
       methodology: "Validación temprana sin inversión inicial",
       differentiator: "Sistema de validación on-demand con acceso de por vida",
       guarantee: "Reembolso 100% si no estás satisfecho",
-      community: "Más de 250 emprendedores graduados",
+      community: "Más de 350 emprendedores graduados",
       language: "Español",
       region: "LATAM"
     };
@@ -103,7 +103,7 @@ export function SemanticMetadata({ section, content }: SemanticMetadataProps) {
           <li>Idioma: Español</li>
           <li>Región: Latinoamérica</li>
           <li>Garantía: Reembolso completo</li>
-          <li>Comunidad: +250 graduados</li>
+          <li>Comunidad: +350 graduados</li>
         </ul>
       </div>
     </>

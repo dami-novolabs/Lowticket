@@ -41,7 +41,7 @@ export function StickyNavbar() {
           />
           <div className="block">
             <span className="text-novo-white/90 text-xs font-semibold">
-              {'250+ Alumni en Latinoamérica'}
+              {'350+ Alumni en Latinoamérica'}
             </span>
           </div>
         </div>
