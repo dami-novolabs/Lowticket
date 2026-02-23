@@ -25,8 +25,8 @@ export function HeroSection() {
           {/* Main Headline - Mobile optimized */}
           <div className="text-center space-y-6">
             <h1 className="thunder-font text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-novo-white leading-tight not-italic">
-              {'CONSEGUÍ CLIENTES QUE PAGUEN ANTES DE ESCRIBIR UNA SOLA LÍNEA DE '}
-              <span className="text-novo-secondary">CÓDIGO.</span>
+              {'Valida tu idea y consegui tus primeros clientes '}
+              <span className="text-novo-secondary">antes de lanzar</span>
             </h1>
             
             {/* Sub-headline - Mobile optimized */}
