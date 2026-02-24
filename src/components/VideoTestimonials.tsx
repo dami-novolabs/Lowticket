@@ -112,7 +112,7 @@ export function VideoTestimonials() {
 
                 {/* Industry Badge + Name - Top Left */}
                 <div className="absolute top-4 sm:top-5 left-4 sm:left-5 z-20 flex flex-col gap-2">
-                  <span className="inline-block w-fit text-[10px] sm:text-xs font-semibold tracking-wide satoshi-font bg-novo-secondary text-novo-black px-4 py-1.5 rounded">
+                  <span className="inline-block w-fit text-[10px] sm:text-xs font-medium tracking-wide satoshi-font bg-novo-white/15 backdrop-blur-sm text-novo-white/90 px-3 py-1 rounded border border-novo-white/10">
                     {testimonial.industry}
                   </span>
                   <div className="flex items-center">
