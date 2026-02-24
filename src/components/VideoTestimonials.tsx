@@ -97,19 +97,12 @@ export function VideoTestimonials() {
                 className="relative bg-novo-background-2 rounded-xl sm:rounded-2xl overflow-hidden border border-novo-white/10 group cursor-pointer hover:border-novo-secondary/50 active:scale-[0.98] transition-all w-full touch-manipulation"
                 onClick={() => setPlayingVideo(testimonial.id)}
               >
-                {/* Industry Badge - Top Left */}
-                <div className="absolute top-4 sm:top-5 left-4 sm:left-5 z-20 bg-novo-black/10 backdrop-blur-sm px-3 py-2 rounded-lg border border-novo-white/10">
-                  <span
-                    className="text-[10px] sm:text-xs text-novo-white tracking-wide satoshi-font"
-                    style={{ fontWeight: 400, letterSpacing: "0.05em" }}
-                  >
+                {/* Industry Badge + Name - Top Left */}
+                <div className="absolute top-3 sm:top-4 left-3 sm:left-4 z-20 flex flex-col gap-1.5">
+                  <span className="inline-block w-fit text-[10px] sm:text-xs text-novo-black font-semibold tracking-wide satoshi-font bg-novo-secondary px-2.5 py-1 rounded-md">
                     {testimonial.industry}
                   </span>
-                  <div className="h-[1px] w-full bg-novo-secondary/40 mt-1" />
-                  <p
-                    className="text-novo-white text-xs sm:text-sm mt-2 satoshi-font"
-                    style={{ fontWeight: 500 }}
-                  >
+                  <p className="text-novo-white text-xs sm:text-sm satoshi-font font-medium drop-shadow-lg">
                     {testimonial.name}
                   </p>
                 </div>
@@ -126,8 +119,8 @@ export function VideoTestimonials() {
 
                 {/* Play Button - Centered */}
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-16 h-16 sm:w-[70px] sm:h-[70px] bg-novo-white/10 backdrop-blur-md rounded-full flex items-center justify-center border border-novo-white/20 group-hover:bg-novo-secondary group-hover:border-novo-secondary group-active:bg-novo-secondary group-active:border-novo-secondary transition-all">
-                    <Play className="w-7 h-7 sm:w-8 sm:h-8 text-novo-white group-hover:text-novo-black group-active:text-novo-black fill-current ml-1" />
+                  <div className="w-14 h-14 sm:w-16 sm:h-16 bg-novo-white/90 rounded-full flex items-center justify-center group-hover:bg-novo-secondary group-active:bg-novo-secondary transition-all duration-300">
+                    <Play className="w-6 h-6 sm:w-7 sm:h-7 text-novo-black fill-current ml-0.5" />
                   </div>
                 </div>
 
