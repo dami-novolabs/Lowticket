@@ -119,13 +119,6 @@ export default function App() {
           <SocialProofSection />
         </section>
 
-        {/* Video Testimonials */}
-        <section itemScope itemType="https://schema.org/WebPageElement"
-                 data-section="video-testimonials"
-                 aria-labelledby="video-testimonials-heading">
-          <VideoTestimonials />
-        </section>
-        
         {/* Problem + Agitation */}
         <section itemScope itemType="https://schema.org/WebPageElement"
                  data-section="problem-identification"
@@ -148,6 +141,13 @@ export default function App() {
           <DifferentiationSection />
         </section>
         
+        {/* Video Testimonials */}
+        <section itemScope itemType="https://schema.org/WebPageElement"
+                 data-section="video-testimonials"
+                 aria-labelledby="video-testimonials-heading">
+          <VideoTestimonials />
+        </section>
+
         {/* Offer Stack */}
         <section itemScope itemType="https://schema.org/WebPageElement"
                  data-section="offer"
