@@ -62,7 +62,7 @@ export function HeroSection() {
               <span className="thunder-font text-3xl sm:text-4xl text-novo-primary">$390</span>
               <span className="text-novo-white text-base sm:text-lg font-medium">USD</span>
             </div>
-            <p className="text-novo-secondary text-sm font-semibold">ACCESO DE POR VIDA</p>
+            <p className="text-novo-secondary text-sm font-semibold">PRECIO LANZAMIENTO</p>
             <div className="flex items-center justify-center gap-3">
               <Shield className="w-5 h-5 text-novo-secondary flex-shrink-0" />
               <span className="text-novo-grey text-sm sm:text-base">
