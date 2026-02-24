@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { StickyNavbar } from './components/StickyNavbar';
 import { HeroSection } from './components/HeroSection';
 import { SocialProofSection } from './components/SocialProofSection';
+import { VideoTestimonials } from './components/VideoTestimonials';
 import { ProblemSection } from './components/ProblemSection';
 import { DifferentiationSection } from './components/DifferentiationSection';
 import { RoadmapSection } from './components/RoadmapSection';
@@ -116,6 +117,13 @@ export default function App() {
                  aria-labelledby="testimonials-heading"
                  itemProp="review">
           <SocialProofSection />
+        </section>
+
+        {/* Video Testimonials */}
+        <section itemScope itemType="https://schema.org/WebPageElement"
+                 data-section="video-testimonials"
+                 aria-labelledby="video-testimonials-heading">
+          <VideoTestimonials />
         </section>
         
         {/* Problem + Agitation */}
