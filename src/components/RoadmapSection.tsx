@@ -119,15 +119,15 @@ export function RoadmapSection() {
             <div className="space-y-3 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-6">
               <div className="flex items-center gap-3 sm:flex-col sm:text-center sm:gap-0">
                 <CheckCircle className="w-6 h-6 sm:w-8 sm:h-8 text-novo-secondary flex-shrink-0 sm:mx-auto sm:mb-2" />
-                <div className="text-novo-white font-semibold text-sm sm:text-base">Una idea con potencial</div>
+                <div className="text-novo-white font-semibold text-sm sm:text-base">Un modelo de negocios para tu idea</div>
               </div>
               <div className="flex items-center gap-3 sm:flex-col sm:text-center sm:gap-0">
                 <CheckCircle className="w-6 h-6 sm:w-8 sm:h-8 text-novo-secondary flex-shrink-0 sm:mx-auto sm:mb-2" />
-                <div className="text-novo-white font-semibold text-sm sm:text-base">Un nicho con capacidad de pago</div>
+                <div className="text-novo-white font-semibold text-sm sm:text-base">Seguridad de que al cliente le interesa lo que haces</div>
               </div>
               <div className="flex items-center gap-3 sm:flex-col sm:text-center sm:gap-0">
                 <CheckCircle className="w-6 h-6 sm:w-8 sm:h-8 text-novo-secondary flex-shrink-0 sm:mx-auto sm:mb-2" />
-                <div className="text-novo-white font-semibold text-sm sm:text-base">Un plan de acción paso a paso</div>
+                <div className="text-novo-white font-semibold text-sm sm:text-base">Un producto/servicio claro para lanzar al mercado</div>
               </div>
             </div>
           </Card>
