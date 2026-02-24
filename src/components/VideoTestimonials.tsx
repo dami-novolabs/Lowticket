@@ -94,41 +94,49 @@ export function VideoTestimonials() {
             {videoTestimonials.map((testimonial) => (
               <div
                 key={testimonial.id}
-                className="relative bg-novo-background-2 rounded-xl sm:rounded-2xl overflow-hidden border border-novo-white/10 group cursor-pointer hover:border-novo-secondary/50 active:scale-[0.98] transition-all w-full touch-manipulation"
+                className="relative rounded-2xl overflow-hidden group cursor-pointer active:scale-[0.98] transition-all duration-300 w-full touch-manipulation border-2 border-transparent hover:border-novo-secondary/40"
                 onClick={() => setPlayingVideo(testimonial.id)}
               >
-                {/* Industry Badge + Name - Top Left */}
-                <div className="absolute top-3 sm:top-4 left-3 sm:left-4 z-20 flex flex-col gap-1.5">
-                  <span className="inline-block w-fit text-[10px] sm:text-xs text-novo-black font-semibold tracking-wide satoshi-font bg-novo-secondary px-2.5 py-1 rounded-md">
+                {/* Thumbnail - fills entire card */}
+                <div className="aspect-[16/10] relative overflow-hidden">
+                  <img
+                    src={testimonial.thumbnail}
+                    alt={`Testimonio de ${testimonial.name}`}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+
+                  {/* Dark overlay gradients for text readability */}
+                  <div className="absolute inset-0 bg-gradient-to-b from-novo-black/70 via-transparent to-novo-black/80" />
+                  <div className="absolute inset-0 bg-novo-black/20" />
+                </div>
+
+                {/* Industry Badge - Top Left */}
+                <div className="absolute top-4 sm:top-5 left-4 sm:left-5 z-20">
+                  <span className="inline-block text-[10px] sm:text-xs font-semibold tracking-wide satoshi-font bg-novo-secondary text-novo-black px-2.5 py-1 rounded">
                     {testimonial.industry}
                   </span>
-                  <p className="text-novo-white text-xs sm:text-sm satoshi-font font-medium drop-shadow-lg">
+                </div>
+
+                {/* Name with left accent line */}
+                <div className="absolute top-11 sm:top-12 left-4 sm:left-5 z-20 flex items-center gap-0">
+                  <div className="w-0.5 h-5 bg-novo-secondary/60 rounded-full mr-2" />
+                  <p className="text-novo-white text-xs sm:text-sm satoshi-font font-medium" style={{ textShadow: '0 1px 6px rgba(0,0,0,0.8)' }}>
                     {testimonial.name}
                   </p>
                 </div>
 
-                {/* Thumbnail Cover - Horizontal 16:9 */}
-                <div className="aspect-[16/9] relative overflow-hidden">
-                  <img
-                    src={testimonial.thumbnail}
-                    alt={`Testimonio de ${testimonial.name}`}
-                    className="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-novo-black via-novo-black/20 to-transparent opacity-90" />
-                </div>
-
-                {/* Play Button - Centered */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-14 h-14 sm:w-16 sm:h-16 bg-novo-white/90 rounded-full flex items-center justify-center group-hover:bg-novo-secondary group-active:bg-novo-secondary transition-all duration-300">
+                {/* Play Button - Center */}
+                <div className="absolute inset-0 flex items-center justify-center z-20">
+                  <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center transition-all duration-300 bg-novo-white/80 group-hover:bg-novo-secondary group-active:bg-novo-secondary shadow-lg group-hover:shadow-novo-secondary/30">
                     <Play className="w-6 h-6 sm:w-7 sm:h-7 text-novo-black fill-current ml-0.5" />
                   </div>
                 </div>
 
                 {/* Quote - Bottom */}
-                <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6 right-4 sm:right-6">
+                <div className="absolute bottom-0 left-0 right-0 z-20 px-4 sm:px-5 pb-4 sm:pb-5 pt-8 bg-gradient-to-t from-novo-black/60 to-transparent">
                   <p
-                    className="text-novo-white text-sm sm:text-base md:text-lg leading-snug satoshi-font"
-                    style={{ fontWeight: 600, fontStyle: "italic" }}
+                    className="text-novo-white text-sm sm:text-base leading-snug satoshi-font"
+                    style={{ fontWeight: 600, fontStyle: "italic", textShadow: '0 1px 6px rgba(0,0,0,0.7)' }}
                   >
                     {testimonial.quote}
                   </p>
