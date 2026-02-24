@@ -6,52 +6,40 @@ import cronogramaImage from 'figma:asset/a961d2ef457d16a466522d96e756348907e6335
 export function RoadmapSection() {
   const roadmapDays = [
     {
-      day: 1,
-      title: "Fundamentos del Emprendimiento",
-      description: "Desarrollá la mentalidad correcta para emprender. Conocé los fundamentos del proceso de validación y configurá las herramientas que vas a usar durante todo el curso.",
-      deliverable: "Mentalidad y herramientas configuradas"
+      day: "1-2",
+      title: "Dise\u00f1\u00e1s tu Modelo de Negocios",
+      description: "Descubr\u00eds qu\u00e9 modelo encaja con tu contexto y habilidades \u2192 avanz\u00e1s con claridad sin copiar f\u00f3rmulas ajenas.",
+      deliverable: ""
     },
     {
-      day: 2, 
-      title: "Generación de Ideas",
-      description: "Aprende a usar inteligencia artificial y pasa de 0 a 10+ ideas de negocio en minutos, sin quedarte paralizado frente a la hoja en blanco.",
-      deliverable: "Inventario completo de ideas"
+      day: "3-6",
+      title: "Detect\u00e1s el Problema Real",
+      description: "Identific\u00e1s dolores urgentes y concretos del cliente \u2192 evit\u00e1s construir bas\u00e1ndose en suposiciones.",
+      deliverable: ""
     },
     {
-      day: 3,
-      title: "Selección de Idea ganadora",
-      description: "Aprende a aplicar criterios objetivos para filtrar tus ideas y evitar decisiones basadas solo en intuición o emoción.",
-      deliverable: "Top 3 ideas priorizadas"
+      day: "7",
+      title: "Defin\u00eds la Soluci\u00f3n (sin construir nada)",
+      description: "Dise\u00f1\u00e1s una soluci\u00f3n deseable y simple \u2192 evit\u00e1s malgastar meses desarrollando features innecesarias.",
+      deliverable: ""
     },
     {
-      day: 4,
-      title: "Identificación de Nichos Rentables",
-      description: "Aprende a identificar nichos de mercado donde la gente quiera y pueda pagar por tu producto/servicio.",
-      deliverable: "Análisis de nicho detallado"
+      day: "8",
+      title: "Cre\u00e1s una Oferta Irresistible para el mercado",
+      description: "Transform\u00e1s tu idea en una propuesta irresistible \u2192 comunic\u00e1s valor con precisi\u00f3n y gener\u00e1s inter\u00e9s real.",
+      deliverable: ""
     },
     {
-      day: 5,
-      title: "Descubrimiento de Problemas Urgentes", 
-      description: "Aprende a diferenciar entre lo que la gente dice que quiere / necesita y lo que en verdad está dispuesta a pagar.",
-      deliverable: "Mapa de problemas urgentes"
+      day: "9-12",
+      title: "Valid\u00e1s con Clientes que Pagan antes de construir",
+      description: "Consegu\u00eds tus primeros compradores antes de tener el producto \u2192 obten\u00e9s evidencia objetiva de mercado.",
+      deliverable: ""
     },
     {
-      day: 6,
-      title: "Definición del Modelo de Negocios",
-      description: "Aprende a estructurar tu idea y su modelo de negocios de forma clara y atacando los 9 cuadrantes del Lean Canvas.",
-      deliverable: "Modelo de negocio definido"
-    },
-    {
-      day: 7,
-      title: "Creación Experimentos de validación",
-      description: "Pasa de la teoría a la práctica con pruebas rápidas que confirmen si tu idea genera tracción real de tus clientes.",
-      deliverable: "Plan de experimentos listo"
-    },
-    {
-      day: "🎁",
-      title: "Bonus: Preparación de entrevistas a clientes",
-      description: "Aprende las bases de una buena entrevista: cómo escuchar, qué preguntar y cómo evitar cesgar las respuestas de tus potenciales clientes.",
-      deliverable: "Guión de entrevistas estructurado"
+      day: "13-16",
+      title: "Constru\u00eds y lanzas tu MVP (solo si vale la pena)",
+      description: "Si el mercado lo confirma, us\u00e1s IA + No-Code para crear un MVP simple y enfocado \u2192 evitando invertir de m\u00e1s.",
+      deliverable: ""
     }
   ];
 
@@ -97,20 +85,17 @@ export function RoadmapSection() {
                   
                   {/* Timeline dot */}
                   <div className="absolute left-3 top-7 w-6 h-6 bg-novo-primary rounded-full border-4 border-novo-background flex items-center justify-center z-10">
-                    <span className="block sm:hidden text-novo-white text-xs font-bold">{day.day}</span>
                   </div>
 
                   {/* Content card - Mobile optimized */}
                   <Card className="w-full bg-novo-background-2 border-novo-primary/20 p-4 sm:p-5 hover:border-novo-secondary/40 transition-all duration-300">
                     
-                    <div className="flex items-center gap-3 mb-3">
-                      <div className="hidden sm:flex w-10 h-10 bg-novo-primary/20 rounded-lg items-center justify-center flex-shrink-0">
-                        <span className="text-novo-primary font-bold text-lg">{day.day}</span>
-                      </div>
-                      <div className="flex-1">
-                        <div className="thunder-font text-novo-white sm:text-lg leading-tight text-[20px]">
-                          {day.title}
-                        </div>
+                    <div className="mb-1">
+                      <span className="text-novo-secondary text-xs font-bold tracking-wider">SEMANA {day.day}</span>
+                    </div>
+                    <div className="mb-3">
+                      <div className="thunder-font text-novo-white sm:text-lg leading-tight text-[20px]">
+                        {day.title}
                       </div>
                     </div>
 
