@@ -6,37 +6,37 @@ import cronogramaImage from 'figma:asset/a961d2ef457d16a466522d96e756348907e6335
 export function RoadmapSection() {
   const roadmapDays = [
     {
-      day: "1-2",
+      day: "1",
       title: "Dise\u00f1\u00e1s tu Modelo de Negocios",
       description: "Descubr\u00eds qu\u00e9 modelo encaja con tu contexto y habilidades \u2192 avanz\u00e1s con claridad sin copiar f\u00f3rmulas ajenas.",
       deliverable: ""
     },
     {
-      day: "3-6",
+      day: "2",
       title: "Detect\u00e1s el Problema Real",
       description: "Identific\u00e1s dolores urgentes y concretos del cliente \u2192 evit\u00e1s construir bas\u00e1ndose en suposiciones.",
       deliverable: ""
     },
     {
-      day: "7",
+      day: "3",
       title: "Defin\u00eds la Soluci\u00f3n (sin construir nada)",
       description: "Dise\u00f1\u00e1s una soluci\u00f3n deseable y simple \u2192 evit\u00e1s malgastar meses desarrollando features innecesarias.",
       deliverable: ""
     },
     {
-      day: "8",
+      day: "4",
       title: "Cre\u00e1s una Oferta Irresistible para el mercado",
       description: "Transform\u00e1s tu idea en una propuesta irresistible \u2192 comunic\u00e1s valor con precisi\u00f3n y gener\u00e1s inter\u00e9s real.",
       deliverable: ""
     },
     {
-      day: "9-12",
+      day: "5",
       title: "Valid\u00e1s con Clientes que Pagan antes de construir",
       description: "Consegu\u00eds tus primeros compradores antes de tener el producto \u2192 obten\u00e9s evidencia objetiva de mercado.",
       deliverable: ""
     },
     {
-      day: "13-16",
+      day: "6",
       title: "Constru\u00eds y lanzas tu MVP (solo si vale la pena)",
       description: "Si el mercado lo confirma, us\u00e1s IA + No-Code para crear un MVP simple y enfocado \u2192 evitando invertir de m\u00e1s.",
       deliverable: ""
@@ -91,7 +91,7 @@ export function RoadmapSection() {
                   <Card className="w-full bg-novo-background-2 border-novo-primary/20 p-4 sm:p-5 hover:border-novo-secondary/40 transition-all duration-300">
                     
                     <div className="mb-1">
-                      <span className="text-novo-secondary text-xs font-bold tracking-wider">SEMANA {day.day}</span>
+                      <span className="text-novo-secondary text-xs font-bold tracking-wider">{`M\u00d3DULO ${day.day}`}</span>
                     </div>
                     <div className="mb-3">
                       <div className="thunder-font text-novo-white sm:text-lg leading-tight text-[20px]">
