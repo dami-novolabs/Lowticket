@@ -143,22 +143,22 @@ export function OfferStackSection({ onOpenModal }: OfferStackSectionProps) {
                   <div className="space-y-5">
                     <div className="flex items-start gap-4 group">
                       <span className="text-xl mt-1 flex-shrink-0 group-hover:scale-110 transition-transform">🎁</span>
-                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">{"Mini-curso: 'Como crear una APP sin programar usando IA'"}</span>
+                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">{"Bonus #1: Mini-curso: 'Como crear una APP sin programar usando IA'"}</span>
                     </div>
 
                     <div className="flex items-start gap-4 group">
                       <span className="text-xl mt-1 flex-shrink-0 group-hover:scale-110 transition-transform">🎁</span>
-                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">{"Mini-curso: 'C\u00f3mo generar ideas de negocio y encontrar nichos rentables'"}</span>
+                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">{"Bonus #2: Mini-curso: 'C\u00f3mo generar ideas de negocio y encontrar nichos rentables'"}</span>
                     </div>
 
                     <div className="flex items-start gap-4 group">
                       <span className="text-xl mt-1 flex-shrink-0 group-hover:scale-110 transition-transform">🎁</span>
-                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">{'Gu\u00eda con las 50 herramientas clave para emprender'}</span>
+                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">{'Bonus #3: Gu\u00eda con las 50 herramientas clave para emprender'}</span>
                     </div>
 
                     <div className="flex items-start gap-4 group">
                       <span className="text-xl mt-1 flex-shrink-0 group-hover:scale-110 transition-transform">🎁</span>
-                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">{'Descuento de $390 cuando te inscribas en el Programa de 4 meses personalizado.'}</span>
+                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">{'Bonus #4: Descuento de $390 cuando te inscribas en el Programa de 4 meses personalizado.'}</span>
                     </div>
                   </div>
                 </div>
