@@ -213,15 +213,7 @@ export function ProblemSection() {
           </DialogContent>
         </Dialog>
 
-        {/* Agitation - Mobile optimized */}
-        <div className="text-center bg-novo-background-2 p-6 sm:p-8 rounded-2xl border border-novo-primary/20">
-          <h3 className="thunder-font text-xl sm:text-2xl text-novo-white mb-3">
-            {'DESPUÉS.'}
-          </h3>
-          <p className="text-lg sm:text-xl text-novo-grey leading-relaxed satoshi-font">
-            {'$390 es más barato que equivocarte.'}
-          </p>
-        </div>
+
       </div>
     </section>
   );
