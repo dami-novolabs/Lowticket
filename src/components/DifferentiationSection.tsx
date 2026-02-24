@@ -1,21 +1,7 @@
 import React from 'react';
-import { Card } from './ui/card';
-import { Check, X } from 'lucide-react';
 import foundersImage from 'figma:asset/79ea234cd2214d3b0f1928b02c71fce3ed26c8d8.png';
 
 export function DifferentiationSection() {
-  const esParaVos = [
-    "Querés validar sin renunciar a tu trabajo",
-    "Sabés construir pero no sabés vender",
-    "Sos profesional y querés emprender con método",
-    "Querés aprender el sistema antes de invertir $1.150"
-  ];
-
-  const noEsParaVos = [
-    "Buscás motivación",
-    "Querés que alguien haga el trabajo por vos",
-    "Necesitás seguimiento constante"
-  ];
 
   return (
     <section className="py-20 px-4 bg-novo-background-2">
@@ -114,38 +100,7 @@ export function DifferentiationSection() {
           </div>
         </div>
 
-        {/* Es para vos / No es para vos */}
-        <div className="grid md:grid-cols-2 gap-8 mt-16">
-          {/* Es para vos si */}
-          <Card className="bg-novo-background border-novo-secondary/30 p-6 sm:p-8">
-            <h3 className="thunder-font text-xl sm:text-2xl text-novo-secondary mb-6">
-              {'Es para vos si:'}
-            </h3>
-            <div className="space-y-4">
-              {esParaVos.map((item, index) => (
-                <div key={index} className="flex items-start gap-3">
-                  <Check className="w-5 h-5 text-novo-secondary mt-0.5 flex-shrink-0" />
-                  <span className="text-novo-grey leading-relaxed">{item}</span>
-                </div>
-              ))}
-            </div>
-          </Card>
 
-          {/* No es para vos si */}
-          <Card className="bg-novo-background border-novo-primary/30 p-6 sm:p-8">
-            <h3 className="thunder-font text-xl sm:text-2xl text-novo-primary mb-6">
-              {'No es para vos si:'}
-            </h3>
-            <div className="space-y-4">
-              {noEsParaVos.map((item, index) => (
-                <div key={index} className="flex items-start gap-3">
-                  <X className="w-5 h-5 text-novo-primary mt-0.5 flex-shrink-0" />
-                  <span className="text-novo-grey leading-relaxed">{item}</span>
-                </div>
-              ))}
-            </div>
-          </Card>
-        </div>
       </div>
     </section>
   );
