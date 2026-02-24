@@ -18,19 +18,19 @@ export function FAQSection() {
     },
     {
       question: "¿Funciona para cualquier tipo de negocio?",
-      answer: "Sí, el método funciona para productos digitales, servicios, e-commerce, SaaS, consultoría, etc. Los principios de validación son universales."
+      answer: "Este sistema funciona perfectamente con Apps m\u00f3viles, SaaS, Marketplace, Chatbots, Copilotos de IA, Agencias de Servicios, Negocios de Consultor\u00eda y negocios de Educaci\u00f3n (Bootcamp, programa, infoproducto, etc)."
     },
     {
       question: "¿Puedo pagar desde LATAM?",
       answer: "Sí, aceptamos pagos en dólares desde toda Latinoamérica. Nuestro proveedor de pagos es Stripe, empresa líder en infraestructura de pagos para comercio internacional."
     },
     {
-      question: "¿Por qué cuesta $390 y no $1.150 como la mentoría?",
-      answer: "Porque el curso on-demand no incluye el acompañamiento personalizado, las sesiones en vivo, ni el acceso a la comunidad extendida. Incluye el sistema completo de validación para que puedas ejecutar por tu cuenta."
+      question: "\u00bfPor qu\u00e9 cuesta $390 solamente?",
+      answer: "$390 es el precio de lanzamiento, por lo que si est\u00e1s leyendo esto\u2026 Enhorabuena por la oportunidad, no la desaproveches. Este curso On-Demand te incluye una bonificaci\u00f3n de $390 en nuestro Programa en Vivo de 4 meses donde te damos acompa\u00f1amiento personalizado. \u00a1Tenelo en cuenta!"
     },
     {
-      question: "¿Qué incluye exactamente la mentoría de $1.150 que esto no tiene?",
-      answer: "La mentoría incluye sesiones en vivo con mentores, acompañamiento personalizado durante 4 meses, acceso a la comunidad de founders, feedback directo sobre tu proyecto, y networking con otros emprendedores."
+      question: "\u00bfQu\u00e9 incluye el Programa de Acompa\u00f1amiento en vivo que este curso no tiene?",
+      answer: "El programa de 4 meses de acompa\u00f1amiento incluye entre 1 y 3 puntos de contacto en vivo por semana con tus mentores. Unas 80 horas de acompa\u00f1amiento en vivo donde vas a poder hablar de tu proyecto y recibir nuestra ayuda para ejecutarlo en tiempo real."
     },
     {
       question: "¿Qué pasa si mi experimento 'falla'?",
@@ -45,8 +45,8 @@ export function FAQSection() {
       answer: "Sí, tendrás soporte por WhatsApp durante los primeros 7 días del curso. Para acceder a la comunidad de emprendedores y al soporte extendido está el Programa 'Lanzar' de 4 meses."
     },
     {
-      question: "¿Qué pasa después del curso?",
-      answer: "Tendrás una idea de negocios estructurada, un nicho de clientes con capacidad de pago y un plan de acción definido. Podés ejecutarlo por tu cuenta o unirte al Programa 'Lanzar' de 4 meses con $300 USD de descuento (bono incluido)."
+      question: "\u00bfQu\u00e9 pasa despu\u00e9s del curso?",
+      answer: "Tendr\u00e1s una idea validada de forma correcta, con clientes identificados que quieren pagar por lo que hac\u00e9s. Tambi\u00e9n tendr\u00e1s el producto/servicio ya definido y listo para lanzar. A partir de ah\u00ed tu trabajo ser\u00e1 agrandar la masa de clientes que pagan. Pod\u00e9s hacerlo por tu cuenta o unirte al Programa de 4 meses con $390 USD de descuento (bono incluido)."
     },
     {
       question: "¿Es realmente una garantía sin letra chica?",
