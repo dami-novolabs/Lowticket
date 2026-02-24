@@ -26,7 +26,7 @@ export function GuaranteeSection() {
 
             <div className="max-w-2xl mx-auto space-y-6">
               <p className="text-lg text-novo-grey leading-relaxed">
-                {'Si después de completar todos los módulos y entregables del curso, no obtuviste una idea clara + un nicho claro + un experimento ejecutable, te devolvemos tu inversión.'}
+                {'Si antes de los 7 d\u00edas sent\u00eds que este curso no te est\u00e1 ayudando a lanzar tu proyecto, pod\u00e9s pedir tu dinero y no te haremos preguntas.'}
               </p>
 
               <div className="grid md:grid-cols-3 gap-6 mt-8 justify-center max-w-3xl mx-auto">
@@ -42,11 +42,10 @@ export function GuaranteeSection() {
                 
                 <div className="text-center">
                   <Shield className="w-8 h-8 text-novo-secondary mx-auto mb-3" />
-                  <div className="text-novo-white font-semibold mb-2">{'Riesgo: nuestro. Ejecución: tuya.'}</div>
+                  <div className="text-novo-white font-semibold mb-2">{'Inverti en vos mismo con riesgo cero'}</div>
                 </div>
               </div>
 
-              <p className="text-novo-grey text-sm text-center mt-4">{'6 años ayudando emprendedores'}</p>
             </div>
 
             {/* Guarantee Seal */}
