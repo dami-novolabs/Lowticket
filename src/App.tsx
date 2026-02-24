@@ -8,6 +8,7 @@ import { DifferentiationSection } from './components/DifferentiationSection';
 import { RoadmapSection } from './components/RoadmapSection';
 import { OfferStackSection } from './components/OfferStackSection';
 import { GuaranteeSection } from './components/GuaranteeSection';
+import { TextTestimonials } from './components/TextTestimonials';
 import { FAQSection } from './components/FAQSection';
 import { FinalCTASection } from './components/FinalCTASection';
 import { StickyFloatingCTA } from './components/StickyFloatingCTA';
@@ -161,6 +162,13 @@ export default function App() {
                  data-section="guarantee"
                  aria-labelledby="guarantee-heading">
           <GuaranteeSection />
+        </section>
+
+        {/* Text Testimonials */}
+        <section itemScope itemType="https://schema.org/WebPageElement"
+                 data-section="text-testimonials"
+                 aria-labelledby="text-testimonials-heading">
+          <TextTestimonials />
         </section>
         
         {/* FAQs */}
