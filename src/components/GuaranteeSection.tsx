@@ -29,20 +29,24 @@ export function GuaranteeSection() {
                 {'Si antes de los 7 d\u00edas sent\u00eds que este curso no te est\u00e1 ayudando a lanzar tu proyecto, pod\u00e9s pedir tu dinero y no te haremos preguntas.'}
               </p>
 
-              <div className="grid md:grid-cols-3 gap-6 mt-8 justify-center max-w-3xl mx-auto">
-                <div className="text-center">
-                  <CheckCircle className="w-8 h-8 text-novo-secondary mx-auto mb-3" />
-                  <div className="text-novo-white font-semibold mb-2">{'Devolución del 100%'}</div>
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mt-8 max-w-3xl mx-auto">
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="w-5 h-5 text-novo-secondary flex-shrink-0" />
+                  <span className="text-novo-white font-semibold text-sm">{'Devoluci\u00f3n del 100%'}</span>
                 </div>
                 
-                <div className="text-center">
-                  <RefreshCw className="w-8 h-8 text-novo-secondary mx-auto mb-3" />
-                  <div className="text-novo-white font-semibold mb-2">{'Reembolso en 48hs máximo'}</div>
+                <div className="hidden sm:block w-px h-5 bg-novo-grey/30"></div>
+
+                <div className="flex items-center gap-2">
+                  <RefreshCw className="w-5 h-5 text-novo-secondary flex-shrink-0" />
+                  <span className="text-novo-white font-semibold text-sm">{'Reembolso en 48hs m\u00e1ximo'}</span>
                 </div>
                 
-                <div className="text-center">
-                  <Shield className="w-8 h-8 text-novo-secondary mx-auto mb-3" />
-                  <div className="text-novo-white font-semibold mb-2">{'Inverti en vos mismo con riesgo cero'}</div>
+                <div className="hidden sm:block w-px h-5 bg-novo-grey/30"></div>
+
+                <div className="flex items-center gap-2">
+                  <Shield className="w-5 h-5 text-novo-secondary flex-shrink-0" />
+                  <span className="text-novo-white font-semibold text-sm">{'Inverti en vos mismo con riesgo cero'}</span>
                 </div>
               </div>
 
