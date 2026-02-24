@@ -116,7 +116,7 @@ export function StickyFloatingCTA({ onOpenModal }: StickyFloatingCTAProps) {
               $390 <span className="text-sm">USD</span>
             </span>
           </div>
-          <p className="text-novo-secondary text-xs font-semibold mt-1">ACCESO DE POR VIDA</p>
+          <p className="text-novo-secondary text-xs font-semibold mt-1">OFERTA LANZAMIENTO</p>
         </div>
 
         {/* CTA Button compacto */}
