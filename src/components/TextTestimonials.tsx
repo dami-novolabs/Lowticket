@@ -1,4 +1,4 @@
-import { Star } from "lucide-react";
+const TRUSTPILOT_GREEN = '#00B67A';
 
 const testimonials = [
   {
@@ -93,13 +93,17 @@ const testimonials = [
   },
 ];
 
+function StarIcon({ filled }: { filled: boolean }) {
+  return (
+    <svg className="w-4 h-4" viewBox="0 0 24 24" fill={filled ? TRUSTPILOT_GREEN : '#E5E7EB'}>
+      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+    </svg>
+  );
+}
+
 function LinkedInIcon() {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      className="h-5 w-5 flex-shrink-0 cursor-pointer fill-[#0A66C2] transition-opacity hover:opacity-80"
-    >
+    <svg className="w-5 h-5" viewBox="0 0 24 24" fill="#0A66C2">
       <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
     </svg>
   );
@@ -107,64 +111,56 @@ function LinkedInIcon() {
 
 export function TextTestimonials() {
   return (
-    <section className="py-12 sm:py-16 md:py-24 bg-white px-4 sm:px-6 border-t border-gray-200">
-      <div className="mx-auto max-w-6xl">
+    <section style={{ backgroundColor: '#ffffff' }} className="py-16 sm:py-20 px-4">
+      <div className="container mx-auto max-w-6xl">
         {/* Titulo */}
-        <h2
-          className="mb-10 text-center font-sans text-3xl text-black sm:mb-12 sm:text-4xl md:mb-16 md:text-5xl"
-          style={{ fontWeight: 800 }}
-        >
-          {"M\u00e1s y "}
-          <span className="text-[rgb(255,58,32)]">{"m\u00e1s testimonios"}</span>
-        </h2>
+        <div className="text-center mb-10 sm:mb-14">
+          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold leading-tight text-balance" style={{ color: '#111827' }}>
+            {"M\u00e1s y "}
+            <span style={{ color: '#EF4444' }} className="italic">{"m\u00e1s testimonios"}</span>
+          </h2>
+        </div>
 
         {/* Grid de cards */}
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-3 sm:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6">
           {testimonials.map((t, idx) => (
             <div
               key={idx}
-              className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-colors hover:border-lime-400/50 sm:p-6"
+              style={{ backgroundColor: '#ffffff', color: '#111827' }}
+              className="rounded-xl border border-gray-200 p-5 sm:p-6 hover:border-lime-400/50 hover:shadow-sm transition-all duration-300"
             >
-              {/* Header: avatar + nombre + estrellas + LinkedIn */}
-              <div className="mb-4 flex items-center gap-3">
-                <img
-                  src={t.avatar}
-                  alt={t.name}
-                  className="h-12 w-12 rounded-full border-2 border-gray-200 object-cover sm:h-14 sm:w-14"
-                />
-                <div className="flex-1">
-                  <p
-                    className="mb-1 text-gray-900"
-                    style={{ fontWeight: 600 }}
-                  >
-                    {t.name}
-                  </p>
-                  <div className="flex items-center justify-between gap-2">
-                    {/* 5 estrellas Trustpilot */}
-                    <div className="flex items-center gap-0.5">
+              {/* Header */}
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center gap-3">
+                  <img
+                    src={t.avatar}
+                    alt={t.name}
+                    className="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover border border-gray-200"
+                    crossOrigin="anonymous"
+                  />
+                  <div>
+                    <p className="font-semibold text-sm sm:text-base" style={{ color: '#111827' }}>{t.name}</p>
+                    <div className="flex gap-0.5 mt-0.5">
                       {[...Array(5)].map((_, i) => (
-                        <Star
-                          key={i}
-                          className="h-3.5 w-3.5 fill-[#00b67a] text-[#00b67a] sm:h-4 sm:w-4"
-                        />
+                        <StarIcon key={i} filled />
                       ))}
                     </div>
-                    {/* Icono LinkedIn */}
-                    {t.linkedin && (
-                      <a
-                        href={t.linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <LinkedInIcon />
-                      </a>
-                    )}
                   </div>
                 </div>
+                {t.linkedin && (
+                  <a
+                    href={t.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`Ver perfil de LinkedIn de ${t.name}`}
+                    className="flex-shrink-0 hover:opacity-80 transition-opacity"
+                  >
+                    <LinkedInIcon />
+                  </a>
+                )}
               </div>
-
-              {/* Texto del testimonio */}
-              <p className="text-sm italic leading-relaxed text-gray-700 sm:text-base">
+              {/* Body */}
+              <p className="text-sm sm:text-base leading-relaxed italic" style={{ color: '#374151' }}>
                 {`\u201c${t.text}\u201d`}
               </p>
             </div>
