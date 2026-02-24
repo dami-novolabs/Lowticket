@@ -107,29 +107,27 @@ export function OfferStackSection({ onOpenModal }: OfferStackSectionProps) {
                     
                     <div className="flex items-start gap-4 group">
                       <CheckCircle className="w-5 h-5 text-novo-secondary mt-1 flex-shrink-0 group-hover:scale-110 transition-transform" />
-                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">Acceso a 7 módulos paso a paso para validar tu idea.</span>
+                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">{'Acceso a 6 m\u00f3dulos paso a paso para validar tu idea.'}</span>
                     </div>
                     
                     <div className="flex items-start gap-4 group">
                       <CheckCircle className="w-5 h-5 text-novo-secondary mt-1 flex-shrink-0 group-hover:scale-110 transition-transform" />
-                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">Acceso a 7 Asistentes de IA Especializados.</span>
+                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">Acceso a 10 Asistentes de IA Especializados.</span>
                     </div>
 
                     <div className="flex items-start gap-4 group">
                       <CheckCircle className="w-5 h-5 text-novo-secondary mt-1 flex-shrink-0 group-hover:scale-110 transition-transform" />
-                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">Acceso a plantillas y herramientas descargables.</span>
-                    </div>
-
-
-
-                    <div className="flex items-start gap-4 group">
-                      <CheckCircle className="w-5 h-5 text-novo-secondary mt-1 flex-shrink-0 group-hover:scale-110 transition-transform" />
-                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">Acceso a un Certificado al completar el Curso al 100%.</span>
+                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">Acceso a recursos descargables.</span>
                     </div>
 
                     <div className="flex items-start gap-4 group">
                       <CheckCircle className="w-5 h-5 text-novo-secondary mt-1 flex-shrink-0 group-hover:scale-110 transition-transform" />
-                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">Soporte por canal de WhatsApp para resolver dudas del curso.</span>
+                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">{'Acceso a un Certificado al completar el Curso al 100%.'}</span>
+                    </div>
+
+                    <div className="flex items-start gap-4 group">
+                      <CheckCircle className="w-5 h-5 text-novo-secondary mt-1 flex-shrink-0 group-hover:scale-110 transition-transform" />
+                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">{'Soporte por canal de WhatsApp para resolver dudas del curso.'}</span>
                     </div>
                   </div>
                 </div>
@@ -145,17 +143,22 @@ export function OfferStackSection({ onOpenModal }: OfferStackSectionProps) {
                   <div className="space-y-5">
                     <div className="flex items-start gap-4 group">
                       <span className="text-xl mt-1 flex-shrink-0 group-hover:scale-110 transition-transform">🎁</span>
-                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">Bonus #1: Mini-tutorial: Cómo entrevistar clientes.</span>
+                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">{"Mini-curso: 'Como crear una APP sin programar usando IA'"}</span>
                     </div>
 
                     <div className="flex items-start gap-4 group">
                       <span className="text-xl mt-1 flex-shrink-0 group-hover:scale-110 transition-transform">🎁</span>
-                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">Bonus #2: Asistente de IA entrenado para Entrevistar clientes.</span>
+                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">{"Mini-curso: 'C\u00f3mo generar ideas de negocio y encontrar nichos rentables'"}</span>
                     </div>
 
                     <div className="flex items-start gap-4 group">
                       <span className="text-xl mt-1 flex-shrink-0 group-hover:scale-110 transition-transform">🎁</span>
-                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">{'Bonus #3: Cupón de US$ 300 OFF para el "Programa Lanzar".'}</span>
+                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">{'Gu\u00eda con las 50 herramientas clave para emprender'}</span>
+                    </div>
+
+                    <div className="flex items-start gap-4 group">
+                      <span className="text-xl mt-1 flex-shrink-0 group-hover:scale-110 transition-transform">🎁</span>
+                      <span className="text-novo-grey group-hover:text-novo-white transition-colors">{'Descuento de $390 cuando te inscribas en el Programa de 4 meses personalizado.'}</span>
                     </div>
                   </div>
                 </div>
