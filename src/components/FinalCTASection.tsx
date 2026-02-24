@@ -25,26 +25,15 @@ export function FinalCTASection({ onOpenModal }: FinalCTASectionProps) {
           <div className="text-center">
             {/* Small text above */}
             <p className="text-novo-black text-lg mb-6 satoshi-font">
-              Emprender con Novolabs
+              {'Por algo el destino te trajo hasta ac\u00e1'}
             </p>
             
             {/* Main headline */}
             <h2 className="thunder-font text-xl sm:text-3xl md:text-4xl lg:text-5xl text-novo-black mb-4 leading-tight">
-              {'QUERÉS VALIDAR ANTES DE CONSTRUIR?'}
+              {'Evita malgastar ahorros y dolores de cabeza con tu emprendimiento'}
             </h2>
 
-            <p className="text-novo-black/70 satoshi-font text-sm mb-2">{'Acceso inmediato. Garantía de 7 días.'}</p>
-            <p className="text-novo-black/60 satoshi-font text-xs mb-2">{'Mentoría completa: $1.150'}</p>
-            <p className="text-novo-black/60 satoshi-font text-xs mb-2">{'Costo promedio de un MVP sin validar: $10.000+'}</p>
-            <p className="text-novo-black/60 satoshi-font text-xs mb-6">{'Costo emocional de fallar: meses perdidos'}</p>
-
-            {/* Price */}
-            <div className="mb-6">
-              <span className="thunder-font text-4xl sm:text-5xl text-novo-black">$390</span>
-              <span className="text-novo-black text-base font-medium ml-2">USD</span>
-              <p className="text-novo-black/70 text-sm mt-1">ACCESO DE POR VIDA</p>
-              <p className="text-novo-black/60 text-xs mt-1">{'$390 es más barato que equivocarte.'}</p>
-            </div>
+            <p className="text-novo-black/70 satoshi-font text-sm mb-6">{'Utiliza el mismo sistema con el que +350 personas de todo Latinoam\u00e9rica ya lanzaron su proyecto al mercado y consiguieron sus primeros clientes reales'}</p>
             
             {/* CTA Button */}
             <Button 
@@ -52,15 +41,15 @@ export function FinalCTASection({ onOpenModal }: FinalCTASectionProps) {
               size="lg"
               className="bg-novo-primary hover:bg-novo-primary/90 hover:scale-[1.02] text-novo-white px-8 py-4 text-lg font-bold rounded-lg mb-4 transition-all duration-300 premium-float premium-pulse transform-gpu active:scale-[0.98]"
             >
-              QUIERO VALIDAR ANTES DE CONSTRUIR
+              {'Activar mi usuario en la plataforma'}
             </Button>
             
             {/* Guarantee text */}
             <p className="text-novo-black satoshi-font font-medium text-sm mb-2">
-              {'Acceso inmediato al finalizar el pago'}
+              {'Acceso inmediato al curso.'}
             </p>
             <p className="text-novo-black/70 satoshi-font text-xs mb-4">
-              {'Pago seguro \u2022 Garantía 7 días'}
+              {'Pago seguro \u2022 Garant\u00eda 7 d\u00edas'}
             </p>
             
 
