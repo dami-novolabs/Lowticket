@@ -217,30 +217,30 @@ export default function App() {
             </DialogDescription>
           </VisuallyHidden.Root>
           <iframe
-            src="https://info.novolabs.xyz/widget/form/Nwsr5FOSTx7o6aVlRudg"
+            src="https://info.novolabs.xyz/widget/form/F5PAAmItBsBI6qPtf3wN"
             style={{
               display: 'block',
               width: '100%',
-              height: '352px',
+              height: '415px',
               border: 'none',
               backgroundColor: '#1E1B1B',
               borderRadius: '3px',
               margin: '0',
               padding: '0'
             }}
-            id="popup-Nwsr5FOSTx7o6aVlRudg" 
-            data-layout='{"id":"POPUP"}'
+            id="inline-F5PAAmItBsBI6qPtf3wN" 
+            data-layout='{"id":"INLINE"}'
             data-trigger-type="alwaysShow"
             data-trigger-value=""
             data-activation-type="alwaysActivated"
             data-activation-value=""
             data-deactivation-type="neverDeactivate"
             data-deactivation-value=""
-            data-form-name="Curso Novolabs"
-            data-height="352"
-            data-layout-iframe-id="popup-Nwsr5FOSTx7o6aVlRudg"
-            data-form-id="Nwsr5FOSTx7o6aVlRudg"
-            title="Curso Novolabs"
+            data-form-name="Mid Ticket Novolabs"
+            data-height="415"
+            data-layout-iframe-id="inline-F5PAAmItBsBI6qPtf3wN"
+            data-form-id="F5PAAmItBsBI6qPtf3wN"
+            title="Mid Ticket Novolabs"
           />
         </DialogContent>
       </Dialog>
