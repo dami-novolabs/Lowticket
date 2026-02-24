@@ -110,19 +110,17 @@ export function VideoTestimonials() {
                   <div className="absolute inset-0 bg-novo-black/20" />
                 </div>
 
-                {/* Industry Badge - Top Left */}
-                <div className="absolute top-4 sm:top-5 left-4 sm:left-5 z-20">
-                  <span className="inline-block text-[10px] sm:text-xs font-semibold tracking-wide satoshi-font bg-novo-secondary text-novo-black px-2.5 py-1 rounded">
+                {/* Industry Badge + Name - Top Left */}
+                <div className="absolute top-4 sm:top-5 left-4 sm:left-5 z-20 flex flex-col gap-2">
+                  <span className="inline-block w-fit text-[10px] sm:text-xs font-semibold tracking-wide satoshi-font bg-novo-secondary text-novo-black px-4 py-1.5 rounded">
                     {testimonial.industry}
                   </span>
-                </div>
-
-                {/* Name with left accent line */}
-                <div className="absolute top-11 sm:top-12 left-4 sm:left-5 z-20 flex items-center gap-0">
-                  <div className="w-0.5 h-5 bg-novo-secondary/60 rounded-full mr-2" />
-                  <p className="text-novo-white text-xs sm:text-sm satoshi-font font-medium" style={{ textShadow: '0 1px 6px rgba(0,0,0,0.8)' }}>
-                    {testimonial.name}
-                  </p>
+                  <div className="flex items-center">
+                    <div className="w-0.5 h-5 bg-novo-secondary/60 rounded-full mr-2" />
+                    <p className="text-novo-white text-xs sm:text-sm satoshi-font font-medium" style={{ textShadow: '0 1px 6px rgba(0,0,0,0.8)' }}>
+                      {testimonial.name}
+                    </p>
+                  </div>
                 </div>
 
                 {/* Play Button - Center */}
