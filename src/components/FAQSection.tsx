@@ -114,7 +114,7 @@ export function FAQSection() {
               {/* Right Side - WhatsApp Button */}
               <div className="flex-1 flex justify-center md:justify-end">
                 <a 
-                  href="https://wa.me/5491163544698?text=Hola!%20Tengo%20una%20consulta%20sobre%20el%20Curso%20de%207%20días%20de%20Novolabs"
+                  href="https://wa.me/5491163544698?text=Buenas!%20Me%20gustar%C3%ADa%20comprar%20el%20curso%20On%20Demand%20de%20Novolabs%2C%20pero%20necesito%20m%C3%A1s%20informaci%C3%B3n.%20Me%20ayudas%3F"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#1DA851] text-white px-6 py-3 rounded-lg transition-colors duration-200 opacity-80 hover:opacity-100"
