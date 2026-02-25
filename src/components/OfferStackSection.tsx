@@ -29,7 +29,7 @@ export function OfferStackSection({ onOpenModal }: OfferStackSectionProps) {
             <div className="text-center mb-16">
               <p className="text-novo-secondary text-sm font-semibold mb-4">ACCESO DE POR VIDA</p>
               <h2 className="thunder-font text-3xl sm:text-4xl md:text-5xl text-novo-white mb-6 leading-tight">
-                {'$390 es más barato que equivocarte.'}
+                {'Evita malgastar tus ahorros y un año en una idea que nadie te quiera comprar'}
               </h2>
             </div>
 
