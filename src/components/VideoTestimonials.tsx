@@ -125,10 +125,10 @@ export function VideoTestimonials() {
                 </div>
 
                 {/* Quote - Bottom */}
-                <div className="absolute bottom-0 left-0 right-0 z-20 px-4 sm:px-5 pb-4 sm:pb-6 pt-12 bg-gradient-to-t from-novo-black/90 via-novo-black/50 to-transparent">
+                <div className="absolute bottom-0 left-0 right-0 z-20 px-5 sm:px-6 pb-5 sm:pb-7 pt-16 bg-gradient-to-t from-novo-black via-novo-black/70 to-transparent">
                   <p
-                    className="text-novo-white text-base sm:text-lg md:text-xl leading-snug satoshi-font"
-                    style={{ fontWeight: 700, fontStyle: "italic", textShadow: '0 2px 10px rgba(0,0,0,0.9)' }}
+                    className="text-novo-secondary text-lg sm:text-xl md:text-2xl leading-tight thunder-font tracking-wide"
+                    style={{ fontWeight: 800, fontStyle: "italic", textShadow: '0 2px 12px rgba(0,0,0,1)' }}
                   >
                     {testimonial.quote}
                   </p>
