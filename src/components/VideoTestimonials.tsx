@@ -98,7 +98,7 @@ export function VideoTestimonials() {
                 onClick={() => setPlayingVideo(testimonial.id)}
               >
                 {/* Thumbnail - fills entire card */}
-                <div className="aspect-[16/10] relative overflow-hidden">
+                <div className="aspect-[4/3] sm:aspect-[16/11] relative overflow-hidden">
                   <img
                     src={testimonial.thumbnail}
                     alt={`Testimonio de ${testimonial.name}`}
@@ -110,17 +110,11 @@ export function VideoTestimonials() {
                   <div className="absolute inset-0 bg-novo-black/20" />
                 </div>
 
-                {/* Industry Badge + Name - Top Left */}
-                <div className="absolute top-4 sm:top-5 left-4 sm:left-5 z-20 flex flex-col gap-2">
-                  <span className="inline-block w-fit text-[10px] sm:text-xs font-medium tracking-wide satoshi-font bg-novo-white/15 backdrop-blur-sm text-novo-white/90 px-3 py-1 rounded border border-novo-white/10">
-                    {testimonial.industry}
-                  </span>
-                  <div className="flex items-center">
-                    <div className="w-0.5 h-5 bg-novo-secondary/60 rounded-full mr-2" />
-                    <p className="text-novo-white text-xs sm:text-sm satoshi-font font-medium" style={{ textShadow: '0 1px 6px rgba(0,0,0,0.8)' }}>
-                      {testimonial.name}
-                    </p>
-                  </div>
+                {/* Name - Top Left */}
+                <div className="absolute top-4 sm:top-5 left-4 sm:left-5 z-20">
+                  <p className="text-novo-white text-xs sm:text-sm satoshi-font font-medium" style={{ textShadow: '0 1px 6px rgba(0,0,0,0.8)' }}>
+                    {testimonial.name}
+                  </p>
                 </div>
 
                 {/* Play Button - Center */}
@@ -151,7 +145,7 @@ export function VideoTestimonials() {
         onOpenChange={(open) => !open && setPlayingVideo(null)}
       >
         <DialogContent
-          className="!max-w-md !p-0 bg-transparent border-0 shadow-none [&>button]:hidden"
+          className="!max-w-[90vw] !w-[90vw] sm:!max-w-4xl !p-0 bg-transparent border-0 shadow-none [&>button]:hidden"
           aria-describedby={undefined}
         >
           <DialogTitle className="sr-only">Video Testimonio</DialogTitle>
@@ -164,7 +158,7 @@ export function VideoTestimonials() {
           </button>
 
           {activeTestimonial && (
-            <div className="w-full aspect-[9/16] max-h-[80vh] bg-novo-black rounded-lg overflow-hidden shadow-2xl">
+            <div className="w-full aspect-[9/16] max-h-[85vh] bg-novo-black rounded-lg overflow-hidden shadow-2xl">
               <iframe
                 src={`${activeTestimonial.videoUrl}${
                   activeTestimonial.videoUrl.includes("?") ? "&" : "?"
