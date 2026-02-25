@@ -153,59 +153,7 @@ export function SocialProofSection() {
           </a>
         </div>
 
-        {/* Press Mentions */}
-        <div className="bg-gradient-to-r from-novo-background-2 via-novo-black to-novo-background-2 py-8 -mx-4 px-4 rounded-xl">
-          <div className="container mx-auto max-w-6xl text-center">
-            <h3 className="thunder-font text-novo-white mb-6 text-base sm:text-xl">
-              Menciones en prensa:
-            </h3>
 
-            {/* Mobile: Animated scroll */}
-            <div className="block sm:hidden">
-              <div className="relative w-full max-w-xs mx-auto overflow-hidden">
-                <div className="flex animate-[scroll_12s_linear_infinite] hover:[animation-play-state:paused]">
-                  {[0, 1].map((iter) => (
-                    <div key={iter} className="flex gap-10 shrink-0">
-                      {[
-                        { src: c5nLogo, alt: 'C5N' },
-                        { src: clarinLogo, alt: 'Clarín' },
-                        { src: forbesLogo, alt: 'Forbes' },
-                        { src: lanacionLogo, alt: 'LA NACIÓN' },
-                        { src: iprofesionalLogo, alt: 'iPROFESIONAL' },
-                      ].map((logo) => (
-                        <div key={`${iter}-${logo.alt}`} className="flex justify-center items-center w-24">
-                          <img
-                            src={logo.src}
-                            alt={logo.alt}
-                            className="h-6 w-auto filter grayscale opacity-70 transition-all duration-500 drop-shadow-[0_0_8px_rgba(255,255,255,0.15)]"
-                          />
-                        </div>
-                      ))}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* Desktop: Static grid */}
-            <div className="hidden sm:flex items-center justify-center gap-6 opacity-70">
-              {[
-                { src: c5nLogo, alt: 'C5N', h: 'h-8' },
-                { src: clarinLogo, alt: 'Clarín', h: 'h-8' },
-                { src: forbesLogo, alt: 'Forbes', h: 'h-8' },
-                { src: lanacionLogo, alt: 'LA NACIÓN', h: 'h-6' },
-                { src: iprofesionalLogo, alt: 'iPROFESIONAL', h: 'h-6' },
-              ].map((logo) => (
-                <img
-                  key={logo.alt}
-                  src={logo.src}
-                  alt={logo.alt}
-                  className={`${logo.h} w-auto filter grayscale hover:grayscale-0 transition-all duration-500 flex-shrink-0 drop-shadow-[0_0_8px_rgba(255,255,255,0.15)] hover:drop-shadow-[0_0_12px_rgba(255,255,255,0.4)] hover:scale-105`}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
