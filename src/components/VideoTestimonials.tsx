@@ -145,7 +145,8 @@ export function VideoTestimonials() {
         onOpenChange={(open) => !open && setPlayingVideo(null)}
       >
         <DialogContent
-          className="!max-w-[90vw] !w-[90vw] sm:!max-w-4xl !p-0 bg-transparent border-0 shadow-none [&>button]:hidden"
+          className="!p-0 bg-transparent border-0 shadow-none [&>button]:hidden"
+          style={{ maxWidth: '90vw', width: '90vw', maxHeight: '90vh' }}
           aria-describedby={undefined}
         >
           <DialogTitle className="sr-only">Video Testimonio</DialogTitle>
@@ -158,7 +159,7 @@ export function VideoTestimonials() {
           </button>
 
           {activeTestimonial && (
-            <div className="w-full aspect-[9/16] max-h-[85vh] bg-novo-black rounded-lg overflow-hidden shadow-2xl">
+            <div className="w-full bg-novo-black rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '9/16', maxHeight: '85vh' }}>
               <iframe
                 src={`${activeTestimonial.videoUrl}${
                   activeTestimonial.videoUrl.includes("?") ? "&" : "?"
